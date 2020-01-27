@@ -5183,12 +5183,12 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #3ce6e6;
+  color: #fff;
 }
 
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
-  color: #3ce6e6;
+  color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link {
