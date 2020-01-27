@@ -899,13 +899,13 @@ Medium devices (tablets, 768px and up)*/
     z-index: 1;
     left: 40px;
     position: absolute;
-    width: 180px;
+    width: 150px;
   }
 
   img.sectionContent {
     top: 20px;
     z-index: 1;
-    left: 250px;
+    left: 220px;
     position: absolute;
     width: 200px;
     height: 200px;
@@ -1032,6 +1032,6 @@ Medium devices (tablets, 768px and up)*/
   /* Form */
 
   input[type="text"] {
-    width: 450px;
+    width: 400px;
   }
 }
