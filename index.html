@@ -14,15 +14,27 @@
 <body>
   <div class="container-fluid banner" id="Home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar">
+<!--     <nav class="navbar navbar-expand-lg navbar-dark navbar">
       <a href="#" class="navbar-brand pl-5"><img src="./assets/img/Logo DigiCare_white@2x.png" alt="Logo"
           width="150px" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
+      
+      <nav class="navbar navbar-expand-lg navbar-dark  indigo darken-2">
 
-      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <!-- Navbar brand -->
+        <a class="navbar-brand pl-5" href="#"><img src="./assets/img/Logo DigiCare_white@2x.png" alt="Logo"
+          width="150px" /></a>
+      
+        <!-- Collapse button -->
+        <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
+          aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="animated-icon3"><span></span><span></span><span></span></div>
+        </button>
+
+      <div id="navbarSupportedContent22" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a href="#Home" class="nav-link">Home</a>
@@ -45,15 +57,16 @@
         </ul>
       </div>
     </nav>
+    <!-- /Navbar -->
 
     <header class="header">
       <div class="container">
         <div class="row title-banner">
-          <div class="col col-sm-6 title">
-            <img src="./assets/img/Title Banner@2x.png" class="title-banner" alt="title" /><br />
+          <div class="col col-sm-6 col-md-6 col-lg-6 title">
+            <img src="./assets/img/Title Banner@2x.png" alt="title" /><br />
             <a href="#Contact" class="button" role="button" aria-pressed="true">Let us help &#62;</a>
           </div>
-          <div class="col col-sm-6 title-img">
+          <div class="col col-sm-6 col-md-6 col-lg-6 title-img">
             <img class="triangel-img" src="./assets/img/triangle awards sliders2.png" alt="triangel-img" />
             <img class="girl-img" src="./assets//img/Banner-girl.png" alt="img-girl" />
             <img class="testimonial-1" src="./assets/img/Banner-testi1.png" alt="testimonial-1" />
@@ -63,17 +76,36 @@
         </div>
       </div>
     </header>
-    <!-- /Navbar -->
 
     <!-- Box testimonial -->
     <div class="container text-center box" id="How">
-      <img class="img-fluid" src="./assets/img/Testimonial box-BG@2x.png" alt="testimonial-box" width="800px"
-        height="250px" /><!-- w800px h250px -->
-      <img class="sectionTitle" src="./assets/img/Testimonial Section - Title@2x.png" alt="testimonial-section"
-        width="300px" />
-      <img class="sectionContent" src="./assets/img/Testimonial section - Content@2x.png" alt="testimonial-content"
-        width="400px" height="200px" />
+      <div class="row box-white">
+        <div class="col col-sm-6 col-md-5 col-lg-5">
+          <h1>
+            <q>Trusted by Brands, Loved by Customers.</q>
+          </h1>
+
+          <!--<img class="sectionTitle" src="./assets/img/Testimonial Section - Title@2x.png" alt="testimonial-section" width="300px" /> -->
+        </div>
+        <div class="col col-sm-6 col-md-7 col-lg-7">
+          <p>DigiCare is proud to be the award-winning whitelabel
+            realtionship service trusted by brands, from FMCGs to
+            automotive industry, to elevate their online customer
+            experience.
+            <br />
+            <br />
+            Width more than 5 years of experience, our team of agents
+            trained to provide exceptional social customer care. No
+            matter the size of your challenge, we have you completely
+            covered!
+          </p>
+          <!-- <img class="img-fluid" src="./assets/img/Testimonial box-BG@2x.png" alt="testimonial-box" width="800px" height="250px" /> -->
+          <!--   <img class="sectionContent" src="./assets/img/Testimonial section - Content@2x.png" alt="testimonial-content" width="400px" height="200px" /> -->
+        </div>
+      </div>
     </div>
+
+
     <!-- /Box testimonial -->
 
     <div class="triangelRight">
@@ -87,79 +119,84 @@
 
     <!-- Container How we Work -->
     <div class="container service" id="Flow">
-      <div class="row">
-        <div class="col-md-6 service-img">
-          <img class="img-fluid" src="./assets/img/What We Do@2x.png" alt="What-we-do" width="200px" height="auto" />
-          <img class="img-fluid" src="./assets/img/Line 2.png" alt="" width="200px" height="auto" />
+      <div class="row reply">
+        <div class="col-md-1 col-lg-1"></div>
+        <div class="col col-sm-6 col-md-5 col-lg-5 whatWeDo-img">
+          <img src="./assets/img/What We Do@2x.png" alt="What-we-do-logo" width="200px" height="auto" />
+          <img src="./assets/img/Line 2.png" alt="line-logo" width="200px" height="auto" />
         </div>
-
-        <div class="col-md-6 elevate">
+        <div class="col col-sm-6 col-md-5 col-lg-5 elevate">
           <img src="./assets/img/Group 60s.png" alt="elevate-logo" width="110px" height="100px" />
-          <h1>ELEVATE YOUR <br />COSTUMER EXPERIENCE</h1>
+          <h1>ELEVATE YOUR <br /> COSTUMER EXPERIENCE</h1>
           <p>
-            Save your time to respond to all your customer's <br />
-            inquiris online. Our dedicated agents will work round <br />
-            the clock to provide responsive social customer care <br />
+            Save your time to respond to all your customer's
+            inquiris online. Our dedicated agents will work round
+            the clock to provide responsive social customer care
             with efficienct and speed.
           </p>
         </div>
-        <div class=" row pt-5 reply">
-          <div class="col-md-6">
-            <img src="./assets/img/Group 58s.png" alt="reply-logo width=" 100px" height="100px" />
-            <h1>REPLY INQUIRIES</h1>
-            <p>
-              There's no holiday for us to turn every negative <br />
-              complaint into a positive compliment. Our dedicated <br />
-              agents will be working 12 hours a day to resolve all the <br />
-              inquiries quickly and also ensure any complaint is <br />
-              seamlessly handed to your representative before the <br />
-              story gets ahead you.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/img/Group 59s.png" alt="address-logo" width="100px" height="100px" />
-            <h1>ADDRESS COMPLAINTS</h1>
-            <p>
-              Speed up all your social customer care operations with <br />
-              our dedicates agents working thoroughly to respond to <br />
-              all the inquiries across all channels, Our agents will be <br />
-              working in a shift to carefully resolve every customer<br />
-              inquiries in less than 30 minutes.
-            </p>
-          </div>
-        </div>
+        <div class="col-md-1 col-lg-1"></div>
+      </div>
 
-        <div class="row pt-5 reply">
-          <div class="col-md-6">
-            <img src="./assets/img/Group 57s.png" alt="gain-logo" width="100px" height="100px" />
-            <h1>GAIN INSIGHTS</h1>
-            <p>
-              Need to drive brand loyalty and build consumer<br />
-              advocacy in sosial media? You can get the best of both <br />
-              worlds with us by letting our agents nurturing a<br />
-              meaningful relationship with your customers across all <br />
-              channels.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/img/Group 56s.png" alt="increase-logo" width="100px" height="100px" />
-            <h1>INCREASE BRAND LOVE</h1>
-            <p>
-              Need a life-saver to understand what your customer <br />
-              wants? Our team of agents will help you connect with <br />
-              your customer on a deeper level by excerpting<br />
-              meaningful interactions into actionable in
-            </p>
-          </div>
+      <div class="row pt-5 reply">
+        <div class="col-lg-1"></div>
+        <div class="col col-sm-6 col-md-6 col-lg-5 ">
+          <img src="./assets/img/Group 58s.png" alt="reply-logo" width="100px" height="100px" />
+          <h1>REPLY INQUIRIES</h1>
+          <p>
+            There's no holiday for us to turn every negative
+            complaint into a positive compliment. Our dedicated
+            agents will be working 12 hours a day to resolve all the
+            inquiries quickly and also ensure any complaint is
+            seamlessly handed to your representative before the
+            story gets ahead you.
+          </p>
         </div>
+        <div class="col col-sm-6 col-md-6 col-lg-5 ">
+          <img src="./assets/img/Group 59s.png" alt="address-logo" width="100px" height="100px" />
+          <h1>ADDRESS COMPLAINTS</h1>
+          <p>
+            Speed up all your social customer care operations with
+            our dedicates agents working thoroughly to respond to
+            all the inquiries across all channels, Our agents will be
+            working in a shift to carefully resolve every customer
+            inquiries in less than 30 minutes.
+          </p>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+
+      <div class="row pt-5 reply">
+        <div class="col-lg-1"></div>
+        <div class="col col-sm-6 col-md-6 col-lg-5">
+          <img src="./assets/img/Group 57s.png" alt="gain-logo" width="100px" height="100px" />
+          <h1 class="box-title">GAIN INSIGHTS</h1>
+          <p>
+            Need to drive brand loyalty and build consumer
+            advocacy in sosial media? You can get the best of both
+            worlds with us by letting our agents nurturing a
+            meaningful relationship with your customers across all
+            channels.
+          </p>
+        </div>
+        <div class="col col-sm-6 col-md-6 col-lg-5">
+          <img src="./assets/img/Group 56s.png" alt="increase-logo" width="100px" height="100px" />
+          <h1>INCREASE BRAND LOVE</h1>
+          <p>
+            Need a life-saver to understand what your customer
+            wants? Our team of agents will help you connect with
+            your customer on a deeper level by excerpting
+            meaningful interactions into actionable in
+          </p>
+        </div>
+        <div class="col-lg-1"></div>
       </div>
     </div>
-
-    <!-- /Container How we Work -->
-
-    <div class="triangelRightBlueOutline">
-      <img src="./assets/img/triangle blue bottom@2x.png" alt="triangelBlue" width="150px" height="200px" />
-    </div>
+  </div>
+  <!-- /Container How we Work -->
+  <div class="triangelRightBlueOutline">
+    <img src="./assets/img/triangle blue bottom@2x.png" alt="triangelBlue" width="150px" height="200px" />
+  </div>
   </div>
 
   <!-- We support -->
@@ -229,22 +266,32 @@
     <h1>Our <span>Clients</span></h1>
     <div class="row">
       <div class="col col-lg-2 col-md-2 col-sm-2">
+        <a href="https://wuling.id/en/" target="_blank" rel="noopener noreferrer">
         <img src="./assets/img/client logo/wuling.png" width="150px" height="100px" alt="wuling-logo">
+      </a>
       </div>
       <div class="col col-lg-2 col-md-2 col-sm-2">
-        <img src="./assets/img/client logo/julies.png" width="150px" height="100px" alt="julies-logo">
+        <a href="https://www.instagram.com/julies.ind/?hl=en" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/img/client logo/julies.png" width="150px" height="100px" alt="julies-logo">
+        </a>
       </div>
       <div class="col col-lg-2 col-md-2 col-sm-2">
-        <img src="./assets/img/client logo/sogoood.png" width="100px" height="100px" alt="sogood-logo">
+        <a href="https://www.instagram.com/sogoodid/" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/img/client logo/sogoood.png" width="100px" height="100px" alt="sogood-logo">
+        </a>
       </div>
       <div class="col col-lg-2 col-md-2 col-sm-2">
-        <img src="./assets/img/client logo/DARLIE.png" width="150px" height="100px" alt="DARLIE-logo">
+        <a href="https://www.instagram.com/darlie.id/?hl=en" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/img/client logo/DARLIE.png" width="150px" height="100px" alt="DARLIE-logo">
+        </a>
       </div>
       <div class="col col-lg-2 col-md-2 col-sm-2">
         <img src="./assets/img/client logo/kotex.png" width="150px" height="100px" alt="kotex-logo">
       </div>
       <div class="col col-lg-2 col-md-2 col-sm-2">
-        <img src="./assets/img/client logo/imboost.png" width="150px" height="100px" alt="imboost-logo">
+        <a href="https://www.instagram.com/imboostid/" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/img/client logo/imboost.png" width="150px" height="100px" alt="imboost-logo">
+        </a>
       </div>
     </div>
 
@@ -262,7 +309,19 @@
         <img src="./assets/img/client logo/bcalife.png" width="170px" height="100px" alt="bcalife-logo">
       </div>
       <div class="col col-lg-2 col-md-2 col-sm-3">
-        <img src="./assets/img/client logo/telonlang.png" width="150px" height="100px" alt="telonlang-logo">
+        <a href="http://telonlang.com " target="_blank" rel="noopener noreferrer">
+          <img src="./assets/img/client logo/telonlang.png" width="150px" height="100px" alt="telonlang-logo">
+        </a>
+      </div>
+      <div class="col col-lg-2 col-md-2 col-sm-3">
+        <a href="https://www.instagram.com/fresnnatural_id/" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/img/client logo/Natural.png" width="150px" height="100px" alt="fres&natura-logo">
+        </a>
+      </div>
+      <div class="col col-lg-12 col-md-12 col-sm-3">
+        <a href="https://www.lpdp.kemenkeu.go.id/" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/img/client logo/LPDP.png" width="200px" height="150px" alt="LPDP-logo">
+        </a>
       </div>
     </div>
   </div>
@@ -273,37 +332,37 @@
   <!-- Form -->
   <div class="container-fluid form text-center" id="Contact">
     <form action="" method="get">
-      <div class="container">
+      <div class="container text-center">
         <h1>Let us <span>Help</span></h1>
         <div class="form-row">
-          <div class="col-md-6 p-3">
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
             <input type="text" class="form-control" placeholder="Name" id="name" name="name">
           </div>
-          <div class="col-md-6 p-3">
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
             <input type="text" class="form-control" placeholder="Phone" id="phone" name="phone">
           </div>
         </div>
 
         <div class="form-row">
-          <div class="col-md-6 p-3">
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
             <input type="text" class="form-control" placeholder="E-mail" id="email" name="email">
           </div>
-          <div class="col-md-6 p-3">
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
             <input type="text" class="form-control" placeholder="Company" id="company" name="company">
           </div>
         </div>
 
         <div class="form-row">
-          <div class="col-md-6 p-3">
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
             <input type="text" class="form-control" placeholder="Industry" id="industry" name="industry">
           </div>
-          <div class="col-md-6 p-3">
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
             <input type="text" class="form-control" placeholder="Number of Employees" id="employed" name="employed">
           </div>
         </div>
       </div>
       <div class="container p-5">
-        <button type="submit" class="btn-read">Read More</button>
+        <button type="submit" class="btn-read">Send</button>
       </div>
     </form>
   </div>
@@ -324,6 +383,7 @@
   <!-- /footer -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
