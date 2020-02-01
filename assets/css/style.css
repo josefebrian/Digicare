@@ -1,50 +1,5 @@
 @import "animate.css";
-
-/* Font-family */
-@font-face {
-  font-family: GothamBlack;
-  src: url(../font/Gotham-Black.otf);
-}
-
-@font-face {
-  font-family: Gotham-Bold;
-  src: url(../font/Gotham-Bold.otf);
-}
-
-@font-face {
-  font-family: GothamBookItalic;
-  src: url(../font/Gotham-BookItalic.otf);
-}
-
-@font-face {
-  font-family: GothamLight;
-  src: url(../font/Gotham-Light.otf);
-}
-
-@font-face {
-  font-family: GothamThin;
-  src: url(../font/Gotham-Thin.otf);
-}
-
-@font-face {
-  font-family: GothamThinItalic;
-  src: url(../font/Gotham-ThinItalic.otf);
-}
-
-@font-face {
-  font-family: GothamUltraItalic;
-  src: url(../font/Gotham-UltraItalic.otf);
-}
-
-@font-face {
-  font-family: GothamXLight;
-  src: url(../font/Gotham-XLight.otf);
-}
-
-@font-face {
-  font-family: GothamXLightItalic;
-  src: url(../font/Gotham-XLightItalic.otf);
-}
+@import "font.css";
 
 * {
   padding: 0;
@@ -52,7 +7,7 @@
 }
 
 body {
- /*  overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 /* HEADER end Nav */
@@ -199,6 +154,22 @@ ul li {
   animation-duration: 4s;
 }
 
+.whatWeDo-img img:first-child {
+  position: relative;
+  top: -40px;
+  left: -100px;
+}
+
+.whatWeDo-img img:last-child {
+  display: inline;
+  float: left;
+  width: 140px;
+  height: auto;
+  position: relative;
+  top: -40px;
+  left: -100px;
+}
+
 .title-banner {
   padding-top: 160px;
 }
@@ -211,7 +182,7 @@ ul li {
 
 .triangel-img {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
 }
 
 .girl-img {
@@ -219,7 +190,6 @@ ul li {
   animation-duration: 4s;
   position: absolute;
   z-index: 1;
-  padding-left: 20px;
 }
 
 img.testimonial-1 {
@@ -238,8 +208,8 @@ img.testimonial-2 {
   animation-duration: 3s;
   width: 250px;
   height: auto;
-  left: -25px;
-  top: 110px;
+  left: 230px;
+  top: 10px;
   z-index: 1;
   position: relative;
 }
@@ -247,8 +217,8 @@ img.testimonial-2 {
 img.testimonial-3 {
   animation-name: slideInLeft;
   animation-duration: 4s;
-  top: 200px;
-  left: -50px;
+  top: 120px;
+  left: -70px;
   width: 250px;
   height: auto;
   z-index: 1;
@@ -345,7 +315,7 @@ q::after {
 .elevate p {
   text-align: justify;
   float: left;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .reply img {
@@ -357,7 +327,7 @@ q::after {
 .reply h1 {
   text-align: start;
   float: left;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #3464cc;
   font-family: Gotham-Bold;
 }
@@ -365,7 +335,7 @@ q::after {
 .reply p {
   text-align: justify;
   float: left;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 /* triangelBlue */
@@ -594,6 +564,9 @@ input[type="text"] {
 
 /* Medium devices (tablets, 968px and up) */
 @media (max-width: 968px) {
+  ul li {
+    padding-left: 10px;
+  }
 
   .box-white p {
     font-size: 0.8rem;
@@ -619,12 +592,25 @@ input[type="text"] {
 
 /* Medium devices (Phone, 768px and up) */
 @media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #3464cc;
+    opacity: 1;
+    color: #000000;
+    opacity: 0.8;
+    position: fixed;
+    top: 10%;
+    right: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+  }
 
   .navbar-dark .navbar-nav .nav-item .nav-link {
-  font-size: 12px;
-  padding-left: 0;
-  padding-right: 0;
+    font-size: 12px;
+    padding-left: 0;
+    padding-right: 0;
   }
+
   .header {
     width: 100%;
     height: 80vh;
@@ -720,18 +706,8 @@ input[type="text"] {
   }
 
 
-
-
-
-
-
-
-
-
-
-
   /* Small devices (landscape phones, 576px and up) */
-  @media (max-width: 568px) and (min-width: 348px){
+  @media (max-width: 568px) {
     .navbar-collapse {
       background-color: #3464cc;
       opacity: 1;
@@ -759,12 +735,8 @@ input[type="text"] {
       font-size: 12px;
     }
 
-    .title-img {
-      left: -50px;
-    }
-
     .title-img img {
-      width: 200px;
+      width: 150px;
     }
 
     .testimonial-1 {
@@ -773,15 +745,15 @@ input[type="text"] {
     }
 
     img.testimonial-2 {
-      left: 130px;
-      width: 150px;
+      left: 90px;
+      width: 130px;
       top: -10px;
     }
 
     img.testimonial-3 {
       left: -30px;
-      width: 150px;
-      top: 50px;
+      width: 130px;
+      top: 40px;
     }
 
 
@@ -938,3 +910,204 @@ input[type="text"] {
   }
 
 
+  @media (max-width: 398px) {
+    .navbar-collapse {
+      background-color: #3464cc;
+      opacity: 1;
+      color: #000000;
+      opacity: 0.8;
+      position: fixed;
+      top: 10%;
+      right: 0;
+      z-index: 10000;
+      width: 100%;
+      height: 100%;
+    }
+
+    .navbar-brand img {
+      width: 100px;
+      position: relative;
+    }
+
+    .title img {
+      padding-bottom: 20px;
+      width: 150px;
+    }
+
+    .title a {
+      font-size: 12px;
+    }
+
+    .title-img img {
+      width: 150px;
+    }
+
+    .testimonial-1 {
+      left: -80px;
+      width: 150px;
+    }
+
+    img.testimonial-2 {
+      left: 90px;
+      width: 130px;
+      top: -10px;
+    }
+
+    img.testimonial-3 {
+      left: -30px;
+      width: 130px;
+      top: 40px;
+    }
+
+
+    .box-white {
+      z-index: 1;
+      position: relative;
+      border-radius: 30px;
+      background-color: #fff;
+      width: 100%;
+      height: auto;
+      padding: 25px 5px;
+    }
+
+    .box-white h1 {
+      font-size: 1em;
+      font-family: Gotham-Bold;
+    }
+
+    .box-white q::before,
+    q::after {
+      letter-spacing: 5px;
+      font-size: 1em;
+      font-family: Gotham-Bold;
+      color: #3464cc;
+    }
+
+    .box-white p {
+      text-align: justify;
+      font-size: 0.5em;
+      font-family: GothamLight;
+    }
+
+    .clients img {
+      padding: 20px;
+      width: 10px;
+    }
+
+    .whatWeDo-img img:first-child {
+      width: 150px;
+      height: auto;
+      float: left;
+      position: relative;
+      top: -40px;
+      left: -100px;
+    }
+
+    .whatWeDo-img img:last-child {
+      display: inline;
+      float: left;
+      width: 145px;
+      height: auto;
+      position: relative;
+      top: -200px;
+      left: 130px;
+    }
+
+    .elevate p {
+      padding-top: 30px;
+    }
+
+    .elevate img {
+      float: left;
+      width: 80px;
+      height: 70px;
+    }
+
+    .reply img {
+      float: left;
+      width: 80px;
+      height: 70px;
+    }
+
+    .reply p {
+      margin-top: -20px;
+    }
+
+    .service p {
+
+      font-size: 0.8rem;
+      text-align: justify;
+    }
+
+    .service h1 {
+      text-align: start;
+      width: 100px;
+      font-size: 0.9rem;
+    }
+
+    .clients h1 {
+      padding-bottom: 30px;
+    }
+
+    .clients img {
+      padding: 5px;
+      width: 50px;
+      height: 50px;
+    }
+
+    .weSupport h1 {
+      font-size: 21px;
+      padding: 20px;
+    }
+
+    .sosialMedia {
+      width: 400px;
+      padding: 10px;
+    }
+
+    .sosialMedia ul li {
+      padding: 10px;
+    }
+
+    .sosialMedia ul li a img {
+      width: 40px;
+      height: 50px;
+    }
+
+    .footer h1 {
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .triangelRight {
+      width: 50px;
+      top: 100px;
+      right: -15px;
+      z-index: 0;
+      position: relative;
+    }
+
+    .triangelRightBottomBlueOutline {
+      display: none;
+    }
+
+    .triangelLeft {
+      width: 80px;
+    }
+
+    .triangelRightBlueOutline img {
+      display: none;
+    }
+
+    .triangelLeftBottom {
+      width: 10px;
+      position: relative;
+      float: left;
+      left: 35px;
+      top: -130px;
+    }
+
+    input[type="text"] {
+      width: 180px;
+    }
+  }
