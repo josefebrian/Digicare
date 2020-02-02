@@ -632,7 +632,7 @@ input[type="text"] {
     color: #000000;
     opacity: 0.8;
     position: fixed;
-    top: 10%;
+    top: 12%;
     right: 0;
     z-index: 10000;
     width: 100%;
@@ -764,7 +764,7 @@ input[type="text"] {
     color: #000000;
     opacity: 0.8;
     position: fixed;
-    top: 8%;
+    top: 12%;
     right: 0;
     z-index: 10000;
     width: 100%;
@@ -811,7 +811,7 @@ input[type="text"] {
     position: relative;
     border-radius: 30px;
     background-color: #fff;
-    width: 100%;
+    width: 110%;
     height: auto;
     padding: 25px 5px;
   }
@@ -1013,7 +1013,7 @@ input[type="text"] {
 
   .box-white {
     z-index: 1;
-    width: 100%;
+    width: 110%;
     height: 200px;
     padding: 5px 5px;
     position: relative;
@@ -1072,27 +1072,29 @@ input[type="text"] {
 
   .elevate img {
     float: left;
-    width: 80px;
+    width: 70px;
     height: 70px;
   }
 
   .reply img {
     float: left;
-    width: 80px;
+    width: 70px;
     height: 70px;
   }
 
   .reply p {
     font-size: 0.5rem;
-    padding-top: 20%;
+    margin-top: -10px;
   }
 
   .service p {
     font-size: 0.5rem;
+    margin-top: -20px;
   }
   .reply h1 {
     text-align: start;
     width: 100px;
+    margin-top: -30%;
     font-size: 0.6rem;
   }
   .service h1 {
@@ -1136,8 +1138,8 @@ input[type="text"] {
   }
 
   .triangelRight {
-    width: 50px;
-    top: 100px;
+    width: 30px;
+    top: 20px;
     right: 0;
     z-index: 0;
     position: relative;
