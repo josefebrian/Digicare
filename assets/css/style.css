@@ -980,7 +980,9 @@ input[type="text"] {
     width: 100px;
     position: relative;
   }
-
+  .title-banner {
+    padding-top: 200px;
+  }
   .title img {
     width: 120px;
   }
@@ -1069,6 +1071,10 @@ input[type="text"] {
   .elevate p {
     padding-top: 30px;
   }
+  .reply p {
+    font-size: 0.5rem;
+    padding-top: 30px;
+  }
 
   .elevate img {
     float: left;
@@ -1082,11 +1088,6 @@ input[type="text"] {
     height: 70px;
   }
 
-  .reply p {
-    font-size: 0.5rem;
-    margin-top: -10px;
-  }
-
   .service p {
     font-size: 0.5rem;
     margin-top: -20px;
@@ -1094,8 +1095,11 @@ input[type="text"] {
   .reply h1 {
     text-align: start;
     width: 100px;
-    margin-top: -30%;
     font-size: 0.6rem;
+    margin-top: -20px;
+  }
+  .elevate h1 {
+    margin-top: -20px;
   }
   .service h1 {
     text-align: start;
