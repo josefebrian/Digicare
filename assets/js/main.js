@@ -13,7 +13,7 @@ $(document).ready(function () {
         $(".menu-overlay").fadeIn(5000);
     });
 
-    $(".menu-overlay").click(function (event) {
+    $(".menu-overlay").on('click', function (event) {
         $(".navbar-toggle").trigger("click");
         $(".menu-overlay").fadeOut(5000);
     });
