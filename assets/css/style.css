@@ -96,27 +96,6 @@ body {
   background-color: #3ce6e6;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .animated-icon3 {
   width: 30px;
   height: 20px;
@@ -249,20 +228,19 @@ ul li {
   animation-duration: 4s;
 }
 
-.whatWeDo-img img:first-child {
+.whatWeDo-img1 img {
   position: relative;
-  top: -40px;
-  left: -100px;
+  top: 15px;
+  left: 100px;
 }
 
-.whatWeDo-img img:last-child {
-  display: inline;
+.whatWeDo-img2 img {
   float: left;
-  width: 140px;
+  width: 200px;
   height: auto;
   position: relative;
-  top: -40px;
-  left: -100px;
+  top: 15px;
+  left: 10px;
 }
 
 .title-img {
@@ -378,7 +356,6 @@ q::after {
 }
 
 /* Container How we Work */
-
 .service {
   color: #5a5a5a;
   padding-top: 100px;
@@ -412,6 +389,8 @@ q::after {
 }
 
 .elevate p {
+  margin-top: -10%;
+  padding-left: 25%;
   text-align: justify;
   float: left;
   font-size: 0.8rem;
@@ -432,13 +411,14 @@ q::after {
 }
 
 .reply p {
+  margin-top: -15%;
+  padding-left: 25%;
   text-align: justify;
   float: left;
   font-size: 0.8rem;
 }
 
 /* triangelBlue */
-
 .triangelRight {
   position: relative;
   float: right;
@@ -455,9 +435,10 @@ q::after {
 .triangelRightBlueOutline {
   position: relative;
   float: right;
-  right: -50px;
+  right: 15px;
   top: -60px;
   z-index: 1;
+  width: 100px;
   transform: rotate(200deg);
   -ms-transform: rotate(200deg);
   -webkit-transform: rotate(200deg);
@@ -467,7 +448,7 @@ q::after {
 
 .triangelRightBottomBlueOutline {
   position: relative;
-  left: 50px;
+  right: 20px;
   float: right;
   top: -90px;
   z-index: 1;
@@ -489,8 +470,8 @@ q::after {
 .triangelLeftBottomSmall {
   position: relative;
   float: left;
-  left: -100px;
-  top: 20px;
+  left: 100px;
+  top: -90px;
   transform: rotate(-50deg);
   -ms-transform: rotate(-50deg);
   -webkit-transform: rotate(-50deg);
@@ -530,6 +511,10 @@ q::after {
   padding: 50px;
   border-radius: 25px;
   background-color: #ecf6ff;
+}
+
+.container .sosialMedia {
+  width: 70%;
 }
 
 .sosialMedia ul li {
@@ -622,6 +607,14 @@ input[type="text"] {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
+  .header {
+    height: 120vh;
+  }
+
+  .box-white p {
+    font-size: 0.9rem;
+  }
+
   img.testimonial-1 {
     width: 250px;
     height: auto;
@@ -657,17 +650,13 @@ input[type="text"] {
     position: relative;
   }
 
-  .triangelRightBottomBlueOutline {
-    display: none;
-  }
+  .triangelRightBottomBlueOutline {}
 
   .triangelLeft {
     width: 80px;
   }
 
-  .triangelRightBlueOutline img {
-    display: none;
-  }
+  .triangelRightBlueOutline img {}
 
   .triangelLeftBottom {
     width: 10px;
@@ -675,6 +664,16 @@ input[type="text"] {
     float: left;
     left: 35px;
     top: -130px;
+  }
+
+
+  .sosialMedia ul li {
+    padding: 20px 20px;
+  }
+
+  .sosialMedia ul li a img {
+    width: 70px;
+    height: 60px;
   }
 
   input[type="text"] {
@@ -842,17 +841,13 @@ input[type="text"] {
     position: relative;
   }
 
-  .triangelRightBottomBlueOutline {
-    display: none;
-  }
+  .triangelRightBottomBlueOutline {}
 
   .triangelLeft {
     width: 80px;
   }
 
-  .triangelRightBlueOutline img {
-    display: none;
-  }
+  .triangelRightBlueOutline img {}
 
   .triangelLeftBottom {
     width: 10px;
@@ -967,7 +962,6 @@ input[type="text"] {
   }
 
   .whatWeDo-img img:last-child {
-    display: inline;
     float: left;
     width: 145px;
     height: auto;
@@ -1028,12 +1022,12 @@ input[type="text"] {
   }
 
   .sosialMedia ul li {
-    padding: 10px;
+    padding: 5px;
   }
 
   .sosialMedia ul li a img {
-    width: 40px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
   }
 
   .footer h1 {
@@ -1049,17 +1043,13 @@ input[type="text"] {
     position: relative;
   }
 
-  .triangelRightBottomBlueOutline {
-    display: none;
-  }
+  .triangelRightBottomBlueOutline {}
 
   .triangelLeft {
     width: 80px;
   }
 
-  .triangelRightBlueOutline img {
-    display: none;
-  }
+  .triangelRightBlueOutline img {}
 
   .triangelLeftBottom {
     width: 10px;
@@ -1179,7 +1169,6 @@ input[type="text"] {
   }
 
   .whatWeDo-img img:last-child {
-    display: inline;
     width: 100px;
     height: auto;
     position: relative;
@@ -1255,13 +1244,13 @@ input[type="text"] {
   }
 
   .sosialMedia ul li a img {
-    width: 30px;
+    width: 20px;
     height: 30px;
   }
 
   .footer h1 {
     font-size: 12px;
-    text-align: center;
+    s text-align: center;
   }
 
   .triangelRight {
@@ -1272,17 +1261,13 @@ input[type="text"] {
     position: relative;
   }
 
-  .triangelRightBottomBlueOutline {
-    display: none;
-  }
+  .triangelRightBottomBlueOutline {}
 
   .triangelLeft {
     width: 80px;
   }
 
-  .triangelRightBlueOutline img {
-    display: none;
-  }
+  .triangelRightBlueOutline img {}
 
   .triangelLeftBottom {
     width: 10px;
@@ -1293,6 +1278,12 @@ input[type="text"] {
   }
 
   input[type="text"] {
-    width: 250px;
+    width: 290px;
+  }
+}
+
+@media (max-width: 320px) {
+  input[type="text"] {
+    width: 240px;
   }
 }
