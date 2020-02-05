@@ -12,6 +12,10 @@ body {
 
 /* HEADER end Nav */
 .background {
+  margin-top: -390px;
+  padding-top: 500px;
+  position: relative;
+  z-index: -1;
   background-color: #ecf6ff;
 }
 
@@ -23,8 +27,7 @@ body {
 
 .header {
   width: 100%;
-  height: 100vh;
-  position: relative;
+  height: 120vh;
   background-color: #3464cc;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +35,6 @@ body {
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 15%;
 }
-
 
 .animated-icon2 {
   width: 30px;
@@ -231,7 +233,7 @@ ul li {
 .whatWeDo-img1 img {
   position: relative;
   top: 15px;
-  left: 100px;
+  left: 10px;
 }
 
 .whatWeDo-img2 img {
@@ -323,16 +325,14 @@ img.testimonial-3 {
 }
 
 .box-white {
-  z-index: 1;
   width: 100%;
   height: 200px;
   padding: 15px 25px;
-  position: relative;
-  margin-top: -100px;
   border-radius: 50px;
   text-align: center;
   background-color: #fff;
   color: #5a5a5a;
+  margin-top: -100px;
 }
 
 .box-white h1 {
@@ -464,7 +464,6 @@ q::after {
   -webkit-transform: rotate(-220deg);
   -o-transform: rotate(220deg);
   -moz-transform: rotate(220deg);
-
 }
 
 .triangelLeftBottomSmall {
@@ -650,13 +649,15 @@ input[type="text"] {
     position: relative;
   }
 
-  .triangelRightBottomBlueOutline {}
+  /* 
+  .triangelRightBottomBlueOutline {} */
 
   .triangelLeft {
     width: 80px;
   }
 
-  .triangelRightBlueOutline img {}
+  /* 
+  .triangelRightBlueOutline img {} */
 
   .triangelLeftBottom {
     width: 10px;
@@ -665,7 +666,6 @@ input[type="text"] {
     left: 35px;
     top: -130px;
   }
-
 
   .sosialMedia ul li {
     padding: 20px 20px;
@@ -841,13 +841,13 @@ input[type="text"] {
     position: relative;
   }
 
-  .triangelRightBottomBlueOutline {}
+  /*  .triangelRightBottomBlueOutline {} */
 
   .triangelLeft {
     width: 80px;
   }
 
-  .triangelRightBlueOutline img {}
+  /*  .triangelRightBlueOutline img {} */
 
   .triangelLeftBottom {
     width: 10px;
@@ -864,6 +864,33 @@ input[type="text"] {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 568px) {
+
+  .header {
+    height: 110vh;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .title-img {
+    left: -50px;
+    text-align: center;
+  }
+
+  .button {
+    color: #fff;
+    background-color: #3567cc;
+  }
+
+
+  .title-mobile img {
+    width: 300px;
+
+  }
+
   .navbar-collapse {
     background-color: #3464cc;
     opacity: 1;
@@ -875,9 +902,7 @@ input[type="text"] {
     z-index: 10000;
     width: 100%;
     height: 100%;
-
   }
-
 
   #slide-navbar {
     float: right;
@@ -888,44 +913,51 @@ input[type="text"] {
     position: relative;
   }
 
-  .title img {
-    width: 150px;
+  .title-banner {
+    padding-top: 350px;
   }
 
-  .title a {
-    font-size: 8px;
+  .title-mobile {
+    margin-top: -80px;
   }
 
-  .title-img img {
-    width: 100px;
+  .title-img .triangel-img {
+    width: 280px;
+    top: -55px;
+  }
+
+  .title-img .girl-img {
+    width: 300px;
+    top: -100px;
   }
 
   img.testimonial-1 {
-    top: 5px;
-    left: -35px;
-    width: 100px;
+    top: -75px;
+    left: 30px;
+    width: 200px;
   }
 
   img.testimonial-2 {
-    left: 65px;
-    width: 100px;
-    top: -15px;
+    left: 260px;
+    width: 180px;
+    top: -65px;
   }
 
   img.testimonial-3 {
-    left: -40px;
-    width: 100px;
-    top: 30px;
+    left: 30px;
+    width: 200px;
+    top: -5px;
   }
 
   .box-white {
+    margin-top: 80px;
     z-index: 1;
     position: relative;
     border-radius: 30px;
     background-color: #fff;
     width: 110%;
     height: auto;
-    padding: 25px 5px;
+    padding: 25px 10px;
   }
 
   .box-white h1 {
@@ -942,6 +974,7 @@ input[type="text"] {
   }
 
   .box-white p {
+    padding-top: 10px;
     text-align: justify;
     font-size: 0.5em;
     font-family: GothamLight;
@@ -952,8 +985,8 @@ input[type="text"] {
     width: 10px;
   }
 
-  .whatWeDo-img img:first-child {
-    width: 150px;
+  .whatWeDo-img1 img {
+    width: 190px;
     height: auto;
     float: left;
     position: relative;
@@ -961,34 +994,57 @@ input[type="text"] {
     left: -100px;
   }
 
-  .whatWeDo-img img:last-child {
+  .whatWeDo-img2 img {
     float: left;
     width: 145px;
     height: auto;
     position: relative;
-    top: -200px;
-    left: 15px;
+    top: -240px;
+    left: 80px;
   }
 
-  .elevate p {
-    padding-top: 30px;
+  .elevate {
+    display: none;
   }
 
-  .elevate img {
+  .elevate-mobile {
+    margin-top: -40px;
+  }
+
+  .elevate-mobile img.aos-init.aos-animate {
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .elevate-mobile h1.aos-init.aos-animate {
+    width: 280px;
+  }
+
+  .reply h1.aos-init.aos-animate {
+    width: 280px;
+    padding-top: 10px;
+  }
+
+  .reply p.aos-init.aos-animate {
+    margin-top: -25px;
+  }
+
+  /*  .elevate img {
     float: left;
     width: 80px;
     height: 70px;
-  }
+  } */
 
-  .reply img {
+  .reply img.aos-init.aos-animate {
     float: left;
-    width: 80px;
-    height: 70px;
+    width: 85px;
+    height: 80px;
   }
 
-  .reply p {
+  /*  .reply p.aos-init.aos-animate {
     padding-top: 20px;
-  }
+  } */
 
   .service p {
     font-size: 0.8rem;
@@ -1037,26 +1093,44 @@ input[type="text"] {
 
   .triangelRight {
     width: 50px;
-    top: 100px;
+    top: 20px;
     right: -15px;
     z-index: 0;
     position: relative;
   }
 
-  .triangelRightBottomBlueOutline {}
+  .triangelRightBottomBlueOutline {
+    width: 80px;
+    height: 80px;
+    top: -67px;
+    left: -31px;
+  }
 
   .triangelLeft {
     width: 80px;
   }
 
-  .triangelRightBlueOutline img {}
+  .triangelRightBlueOutline {
+    position: relative;
+    float: right;
+    right: -10px;
+    top: 49px;
+    z-index: 1;
+    width: 100px;
+  }
 
   .triangelLeftBottom {
     width: 10px;
     position: relative;
     float: left;
-    left: 35px;
-    top: -130px;
+    left: 10px;
+    top: 10px;
+  }
+
+  .triangelLeftBottomSmall {
+
+    left: 20px;
+    top: -25px;
   }
 
   input[type="text"] {
@@ -1066,8 +1140,16 @@ input[type="text"] {
 
 @media (max-width: 398px) {
   .header {
-    width: 100%;
-    height: 60vh;
+    height: 100vh;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .title-img {
+    left: -30px;
+    text-align: center;
   }
 
   .navbar-collapse {
@@ -1092,47 +1174,50 @@ input[type="text"] {
     padding-top: 200px;
   }
 
-  .title img {
-    width: 120px;
-  }
-
-  .title a {
-    font-size: 7px;
-  }
-
   .title-img img {
     margin-left: -15px;
     width: 100px;
   }
 
-  img.testimonial-1 {
-    left: -30px;
+  .navbar-brand img {
     width: 100px;
+    position: relative;
+  }
+
+  .title-banner {
+    padding-top: 350px;
+  }
+
+  .title-mobile {
+    margin-top: -80px;
+  }
+
+  .title-img .triangel-img {
+    width: 250px;
+    top: -55px;
+  }
+
+  .title-img .girl-img {
+    width: 280px;
+    top: -100px;
+  }
+
+  img.testimonial-1 {
+    top: -75px;
+    left: 30px;
+    width: 200px;
   }
 
   img.testimonial-2 {
-    left: 55px;
-    top: -5px;
-    width: 100px;
+    left: 220px;
+    width: 180px;
+    top: -65px;
   }
 
   img.testimonial-3 {
-    left: -30px;
-    width: 100px;
-    top: 20px;
-  }
-
-  .box-white {
-    z-index: 1;
-    width: 110%;
-    height: 200px;
-    padding: 5px 5px;
-    position: relative;
-    margin-top: -50px;
-    border-radius: 25px;
-    text-align: center;
-    background-color: #fff;
-    color: #5a5a5a;
+    left: 30px;
+    width: 200px;
+    top: 30px;
   }
 
   .box-white h1 {
@@ -1149,6 +1234,7 @@ input[type="text"] {
   }
 
   .box-white p {
+    padding-top: 10px;
     text-align: justify;
     font-size: 0.5em;
     font-family: GothamLight;
@@ -1159,42 +1245,26 @@ input[type="text"] {
     width: 10px;
   }
 
-  .whatWeDo-img img:first-child {
-    width: 100px;
-    height: auto;
-    float: left;
-    position: relative;
-    top: -40px;
-    left: -100px;
+  .elevate-mobile img.aos-init.aos-animate {
+    width: 90px;
+    height: 90px;
   }
 
-  .whatWeDo-img img:last-child {
-    width: 100px;
-    height: auto;
-    position: relative;
-    top: -150px;
-    left: -30px;
+  .elevate-mobile h1.aos-init.aos-animate {
+    width: 200px;
+    margin-top: 10px;
+
   }
 
-  .elevate p {
-    padding-top: 30px;
+  .reply h1.aos-init.aos-animate {
+    width: 170px;
+    margin-top: 3px;
+
   }
 
-  .reply p {
-    font-size: 0.5rem;
-    padding-top: 30px;
-  }
-
-  .elevate img {
-    float: left;
-    width: 70px;
-    height: 70px;
-  }
-
-  .reply img {
-    float: left;
-    width: 70px;
-    height: 70px;
+  .reply p.aos-init.aos-animate {
+    margin-top: -25px;
+    margin-left: 10px;
   }
 
   .service p {
@@ -1219,6 +1289,19 @@ input[type="text"] {
     font-size: 0.6rem;
   }
 
+  .sosialMedia {
+    padding: 15px;
+  }
+
+  .sosialMedia ul li {
+    padding: 10px 4px;
+  }
+
+  .sosialMedia ul li a img {
+    width: 30px;
+    height: 40px;
+  }
+
   .clients h1 {
     padding-bottom: 30px;
   }
@@ -1230,44 +1313,26 @@ input[type="text"] {
   }
 
   .weSupport h1 {
-    font-size: 21px;
+    font-size: 1rem;
     padding: 20px;
-  }
-
-  .sosialMedia {
-    width: 400px;
-    padding: 10px;
-  }
-
-  .sosialMedia ul li {
-    padding: 5px;
-  }
-
-  .sosialMedia ul li a img {
-    width: 20px;
-    height: 30px;
   }
 
   .footer h1 {
     font-size: 12px;
-    s text-align: center;
+    text-align: center;
   }
 
   .triangelRight {
-    width: 30px;
+    width: 50px;
     top: 20px;
-    right: 0;
+    right: -15px;
     z-index: 0;
     position: relative;
   }
 
-  .triangelRightBottomBlueOutline {}
-
   .triangelLeft {
     width: 80px;
   }
-
-  .triangelRightBlueOutline img {}
 
   .triangelLeftBottom {
     width: 10px;
@@ -1283,6 +1348,88 @@ input[type="text"] {
 }
 
 @media (max-width: 320px) {
+  .title-mobile img {
+    width: 250px;
+  }
+
+  .title-mobile .button {
+    width: 10px;
+    font-size: 0.5rem;
+  }
+
+  .title-img .triangel-img {
+    width: 220px;
+    top: -55px;
+  }
+
+  .title-img .girl-img {
+    width: 250px;
+    top: -100px;
+  }
+
+  .reply p.aos-init.aos-animate {
+    margin-left: 20px;
+  }
+
+  img.testimonial-1 {
+    top: -55px;
+    left: 30px;
+    width: 150px;
+  }
+
+  img.testimonial-2 {
+    left: 200px;
+    width: 150px;
+    top: -65px;
+  }
+
+  img.testimonial-3 {
+    left: 30px;
+    width: 150px;
+    top: 30px;
+  }
+
+  .whatWeDo-img1 img {
+    top: -30px;
+    left: -120px;
+  }
+
+  .whatWeDo-img2 img {
+    top: -240px;
+    left: 45px;
+  }
+
+  .service h1 {
+    text-align: start;
+    width: 100px;
+    font-size: 0.8rem;
+  }
+
+  .weSupport h1 {
+    font-size: 1rem;
+  }
+
+  .sosialMedia {
+    padding: 10px;
+  }
+
+  .clients h1 {
+    font-size: 1rem;
+  }
+
+  .form h1 {
+    font-size: 1rem;
+  }
+
+  .sosialMedia ul li {
+    padding: 0;
+  }
+
+  .sosialMedia ul li a img {
+    width: 30px;
+    height: 30px;
+  }
+
   input[type="text"] {
     width: 240px;
   }
