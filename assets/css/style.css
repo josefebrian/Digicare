@@ -963,7 +963,7 @@ input[type="text"] {
   }
 
   .triangelRightBlueOutline {
-    left: 50px;
+    left: 30px;
   }
 
   .triangelLeftBottom {
@@ -1224,7 +1224,7 @@ input[type="text"] {
     position: relative;
     float: right;
     right: -10px;
-    top: 49px;
+    top: 99px;
     z-index: 1;
     width: 100px;
   }
@@ -1243,7 +1243,7 @@ input[type="text"] {
   }
 
   input[type="text"] {
-    width: 410px;
+    width: 330px;
   }
 }
 
@@ -1257,8 +1257,12 @@ input[type="text"] {
   }
 
   .title-mobile img {
-    background-color: yellow;
+    margin-left: 20px;
+  }
 
+  .title-mobile a {
+    font-size: 0.6rem;
+    margin-left: 20px;
   }
 
   .title-img {
@@ -1302,9 +1306,7 @@ input[type="text"] {
     padding-top: 350px;
   }
 
-  .title-mobile {
-    margin-top: -80px;
-  }
+
 
   .title-img .triangel-img {
     width: 250px;
