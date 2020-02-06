@@ -291,16 +291,16 @@ img.testimonial-2 {
   animation-duration: 3s;
   width: 250px;
   height: auto;
-  left: -40px;
-  top: 120px;
-  z-index: 1;
+  left: -93px;
+  top: 83px;
+  z-index: 0;
   position: relative;
 }
 
 img.testimonial-3 {
   animation-name: slideInLeft;
   animation-duration: 4s;
-  top: 250px;
+  top: 145px;
   left: -55px;
   width: 250px;
   height: auto;
