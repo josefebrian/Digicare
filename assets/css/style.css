@@ -547,7 +547,7 @@ q::after {
 }
 
 .clients img {
-  padding: 20px;
+  padding: 10px;
 }
 
 .clients h1 {
@@ -787,7 +787,7 @@ input[type="text"] {
   }
 
   .clients img {
-    padding: 30px;
+    padding: 20px;
   }
 
   input[type="text"] {
@@ -937,7 +937,7 @@ input[type="text"] {
   }
 
   .clients img {
-    padding: 35px;
+    padding: 30px;
   }
 
   .sosialMedia ul li {
@@ -1119,7 +1119,7 @@ input[type="text"] {
   }
 
   .box-white h1 {
-    font-size: 1em;
+    font-size: 1.3rem;
     font-family: Gotham-Bold;
   }
 
@@ -1139,8 +1139,9 @@ input[type="text"] {
   }
 
   .clients img {
-    padding: 20px;
-    width: 10px;
+    padding: 5px;
+    width: 85px;
+    height: 70px;
   }
 
   .whatWeDo-img1 img {
@@ -1213,8 +1214,8 @@ input[type="text"] {
 
   .clients img {
     padding: 5px;
-    width: 50px;
-    height: 50px;
+    width: 85px;
+    height: 70px;
   }
 
   .weSupport h1 {
@@ -1388,8 +1389,9 @@ input[type="text"] {
   }
 
   .clients img {
-    padding: 20px;
-    width: 10px;
+    padding: 5px;
+    width: 85px;
+    height: 70px;
   }
 
   .elevate-mobile img.aos-init.aos-animate {
@@ -1455,8 +1457,8 @@ input[type="text"] {
 
   .clients img {
     padding: 5px;
-    width: 50px;
-    height: 50px;
+    width: 85px;
+    height: 70px;
   }
 
   .weSupport h1 {
@@ -1521,7 +1523,7 @@ input[type="text"] {
   }
 
   .reply p.aos-init.aos-animate {
-    margin-left: 20px;
+    margin-left: 25px;
   }
 
   img.testimonial-1 {
