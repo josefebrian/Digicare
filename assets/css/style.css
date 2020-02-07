@@ -27,10 +27,9 @@ body {
 
 .header {
   width: 100%;
-  min-height: 125vh;
-  max-height: 150vh;
+  height: 140vh;
   background-color: #3464cc;
-  clip-path: ellipse(69% 61% at 50% 44%);
+  clip-path: ellipse(70% 57% at 50% 44%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -345,9 +344,11 @@ img.testimonial-3 {
   z-index: 4;
   left: 115px;
 }
+
 .row-box1 {
   margin-top: -150px;
 }
+
 .box-white h1 {
   font-size: 2rem;
   font-family: Gotham-Bold;
@@ -638,7 +639,7 @@ input[type="text"] {
   }
 
   .box-white {
-    left: 68px;
+    left: 97px;
   }
 
   img.testimonial-1 {
@@ -708,10 +709,13 @@ input[type="text"] {
 @media (max-width: 998px) {
   .header {
     height: 143vh;
+    clip-path: ellipse(69% 52% at 51% 46%);
   }
+
   .row-box {
     margin-top: -150px;
   }
+
   .navbar-dark .navbar-nav .nav-item .nav-link {
     padding-left: 0;
   }
@@ -726,6 +730,7 @@ input[type="text"] {
     left: 20px;
     top: 20px;
   }
+
   .elevate {
     width: 290px;
     margin-left: 0;
@@ -829,8 +834,7 @@ input[type="text"] {
 
   .header {
     width: 100%;
-    min-height: 96vh;
-    max-height: 100vh;
+    height: 109vh;
     clip-path: ellipse(66% 48% at 50% 44%);
   }
 
@@ -915,9 +919,11 @@ input[type="text"] {
   .service {
     margin-top: -100px;
   }
+
   .row-box1 {
     margin-top: -50px;
   }
+
   .whatWeDo-img1 img {
     position: relative;
     top: 15px;
@@ -931,6 +937,7 @@ input[type="text"] {
     top: -200px;
     left: 250px;
   }
+
   .elevate-mobile img.aos-init.aos-animate {
     width: 90px;
     height: 90px;
@@ -945,6 +952,7 @@ input[type="text"] {
     font-family: Gotham-Bold;
     font-size: 16px;
   }
+
   .elevate-mobile p {
     margin-top: -25px;
     padding-right: 0;
@@ -953,9 +961,11 @@ input[type="text"] {
     float: left;
     font-size: 12px;
   }
+
   .elevate-mobile {
     margin-top: -120px;
   }
+
   .elevate-mobile h1 {
     padding-top: 0;
     margin-left: -10px;
@@ -1055,7 +1065,7 @@ input[type="text"] {
   }
 
   .header {
-    height: 98vh;
+    height: 111vh;
     clip-path: ellipse(81% 48% at 49% 46%);
   }
 
@@ -1118,33 +1128,33 @@ input[type="text"] {
   }
 
   .title-img .triangel-img {
-    left: 10px;
-    top: -18px;
-    width: 200px;
+    left: 30px;
+    top: -72px;
+    width: 260px;
   }
 
   .title-img .girl-img {
-    margin-left: -80px;
-    margin-top: -35px;
-    width: 200px;
+    left: 42px;
+    top: -97px;
+    width: 260px;
   }
 
   img.testimonial-1 {
-    top: -25px;
-    left: -50px;
-    width: 180px;
+    top: -65px;
+    left: -37px;
+    width: 195px;
   }
 
   img.testimonial-2 {
-    left: 118px;
-    width: 180px;
-    top: -35px;
+    left: 168px;
+    width: 195px;
+    top: -72px;
   }
 
   img.testimonial-3 {
     left: -55px;
-    width: 180px;
-    top: 15px;
+    width: 195px;
+    top: 6px;
   }
 
   .box-white {
@@ -1209,6 +1219,7 @@ input[type="text"] {
   .elevate {
     display: none;
   }
+
   .elevate-mobile img.aos-init.aos-animate {
     width: 90px;
     height: 90px;
@@ -1223,6 +1234,7 @@ input[type="text"] {
     font-family: Gotham-Bold;
     font-size: 16px;
   }
+
   .elevate-mobile p {
     margin-top: -25px;
     padding-right: 0;
@@ -1231,6 +1243,7 @@ input[type="text"] {
     float: left;
     font-size: 12px;
   }
+
   .elevate-mobile {
     margin-top: -40px;
   }
@@ -1298,6 +1311,7 @@ input[type="text"] {
     font-size: 12px;
     text-align: center;
   }
+
   .triangelRight {
     position: relative;
     float: right;
@@ -1348,7 +1362,7 @@ input[type="text"] {
 
 @media (max-width: 398px) {
   .header {
-    height: 88vh;
+    height: 108vh;
     clip-path: ellipse(100% 45% at 50% 45%);
   }
 
@@ -1404,31 +1418,32 @@ input[type="text"] {
   }
 
   .title-img .triangel-img {
-    left: 97px;
-    top: -71px;
+    left: 71px;
+    top: -139px;
+    width: 250px;
   }
 
   .title-img .girl-img {
-    left: 172px;
-    top: -53px;
+    left: 84px;
+    top: -160px;
   }
 
   img.testimonial-1 {
-    top: -80px;
+    top: -134px;
     left: 13px;
     width: 200px;
   }
 
   img.testimonial-2 {
-    left: 215px;
-    width: 150px;
-    top: -84px;
+    left: 232px;
+    width: 168px;
+    top: -130px;
   }
 
   img.testimonial-3 {
-    left: 27px;
-    width: 163px;
-    top: -25px;
+    left: 40px;
+    width: 178px;
+    top: -35px;
   }
 
   .box-white {
@@ -1476,14 +1491,16 @@ input[type="text"] {
     font-family: Gotham-Bold;
     font-size: 13px;
   }
+
   .elevate-mobile p {
     margin-top: -7%;
     padding-right: 0;
-    padding-left: 26%;
+    padding-left: 24%;
     text-align: justify;
     float: left;
     font-size: 12px;
   }
+
   .reply h1.aos-init.aos-animate {
     width: 170px;
     margin-top: 3px;
@@ -1492,13 +1509,14 @@ input[type="text"] {
 
   .reply p.aos-init.aos-animate {
     margin-top: -25px;
-    margin-left: 7px;
+    margin-left: 3px;
     font-size: 12px;
   }
 
   .service {
     margin-top: -50px;
   }
+
   .reply h1 {
     text-align: start;
     width: 100px;
@@ -1575,11 +1593,12 @@ input[type="text"] {
 
 @media (max-width: 320px) {
   .header {
-    height: 79vh;
+    height: 95vh;
+    clip-path: ellipse(120% 47% at 50% 38%);
   }
 
   .title-banner {
-    padding-top: 356px;
+    padding-top: 280px;
     padding-left: 39px;
   }
 
@@ -1597,16 +1616,17 @@ input[type="text"] {
   }
 
   .title-img .triangel-img {
-    left: 97px;
-    top: -62px;
-    width: 150px;
+    left: 63px;
+    top: -91px;
+    width: 200px;
   }
 
   .title-img .girl-img {
-    left: 171px;
-    top: -39px;
-    width: 150px;
+    left: 77px;
+    top: -118px;
+    width: 200px;
   }
+
   .elevate-mobile {
     margin-top: -200px;
   }
@@ -1628,6 +1648,7 @@ input[type="text"] {
     width: 180px;
     margin-top: 10px;
   }
+
   .elevate-mobile h1 {
     text-align: start;
     float: left;
@@ -1646,31 +1667,34 @@ input[type="text"] {
     float: left;
     font-size: 0.8rem;
   }
+
   .row-box {
     margin-top: -150px;
   }
+
   .reply {
     margin-top: auto;
   }
+
   .reply p.aos-init.aos-animate {
     margin-left: 25px;
   }
 
   img.testimonial-1 {
-    top: -67px;
-    left: 56px;
-    width: 120px;
+    top: -94px;
+    left: 35px;
+    width: 135px;
   }
 
   img.testimonial-2 {
-    left: 176px;
-    width: 120px;
-    top: -65px;
+    left: 184px;
+    top: -100px;
+    width: 135px;
   }
 
   img.testimonial-3 {
-    left: 49px;
-    width: 120px;
+    left: 35px;
+    width: 135px;
     top: -16px;
   }
 
@@ -1701,19 +1725,24 @@ input[type="text"] {
   .clients h1 {
     font-size: 1rem;
   }
+
   .triangelRight {
     top: -980px;
     width: 100px;
   }
+
   .triangelRightBlueOutline {
     top: 173px;
   }
+
   .form h1 {
     font-size: 1rem;
   }
+
   .service {
     margin-top: 76px;
   }
+
   .container .sosialMedia {
     width: 80%;
   }
