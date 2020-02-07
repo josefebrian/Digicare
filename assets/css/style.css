@@ -738,6 +738,8 @@ input[type="text"] {
 
   .elevate p {
     margin-left: 20px;
+    padding-right: 0%;
+    padding-left: 22%;
   }
 
   .elevate h1 {
