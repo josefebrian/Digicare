@@ -27,7 +27,8 @@ body {
 
 .header {
   width: 100%;
-  height: 125vh;
+  min-height: 143vh;
+  max-height: 150vh;
   background-color: #3464cc;
   clip-path: ellipse(69% 61% at 50% 44%);
   background-repeat: no-repeat;
@@ -292,8 +293,8 @@ img.testimonial-2 {
   animation-duration: 3s;
   width: 250px;
   height: auto;
-  left: -93px;
-  top: 83px;
+  left: 170px;
+  top: 5px;
   z-index: 0;
   position: relative;
 }
@@ -619,6 +620,7 @@ input[type="text"] {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
+
   .navbar-dark .navbar-nav ul li {
     padding-left: 9px;
   }
@@ -628,7 +630,7 @@ input[type="text"] {
   }
 
   .box-white {
-    left: 100px;
+    left: 68px;
   }
 
   img.testimonial-1 {
@@ -729,6 +731,11 @@ input[type="text"] {
 
 /* Medium devices (tablets, 968px and up) */
 @media (max-width: 998px) {
+
+  .header {
+    height: 143vh;
+  }
+
   .navbar-dark .navbar-nav .nav-item .nav-link {
     padding-left: 0;
   }
@@ -802,11 +809,6 @@ input[type="text"] {
 
 /* Medium devices (Tablet, 768px and up) */
 @media (max-width: 768px) {
-  .navbar-dark .navbar-nav .nav-item .nav-link {
-    font-size: 0.9rem;
-    padding: 5px;
-    padding-top: 20px;
-  }
 
   /*   .navbar-collapse .navbar-nav .nav-item .nav-link {
     padding-left: 20px;
@@ -817,9 +819,6 @@ input[type="text"] {
     padding-top: 50px;
   } */
 
-  .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-    border-bottom: none;
-  }
 
   /*   .navbar-collapse {
     background-color: #3464cc;
@@ -835,9 +834,20 @@ input[type="text"] {
     padding-top: 25px;
   } */
 
+  .navbar-dark .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+    padding: 5px;
+    padding-top: 20px;
+  }
+
+  .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+
   .header {
     width: 100%;
-    height: 96vh;
+    min-height: 109vh;
+    max-height: 100vh;
     clip-path: ellipse(66% 48% at 50% 44%);
   }
 
@@ -847,6 +857,11 @@ input[type="text"] {
 
   .title-banner {
     padding-top: 250px;
+    padding-left: 0;
+  }
+
+  .title-img {
+    margin-left: 0;
   }
 
   .title {
@@ -883,7 +898,7 @@ input[type="text"] {
 
 
   .box-white {
-    width: 70%;
+    width: 95%;
     height: 138px;
     padding: 17px 5px;
     border-radius: 20px;
@@ -894,7 +909,7 @@ input[type="text"] {
     bottom: 0;
     position: relative;
     z-index: 4;
-    left: 125px;
+    left: 20px;
   }
 
   .box-white h1 {
@@ -1088,7 +1103,7 @@ input[type="text"] {
 
   .title-banner {
     padding-top: 270px;
-    padding-left: 50px;
+    padding-left: 120px;
   }
 
   .title-mobile {
@@ -1119,7 +1134,7 @@ input[type="text"] {
   }
 
   img.testimonial-2 {
-    left: 107px;
+    left: 130px;
     width: 180px;
     top: -35px;
   }
@@ -1127,7 +1142,7 @@ input[type="text"] {
   img.testimonial-3 {
     left: -55px;
     width: 180px;
-    top: 30px;
+    top: 15px;
   }
 
 
@@ -1143,7 +1158,7 @@ input[type="text"] {
     bottom: 0;
     position: relative;
     z-index: 4;
-    left: 50px;
+    left: 60px;
   }
 
   .box-white h1 {
@@ -1209,7 +1224,7 @@ input[type="text"] {
   }
 
   .reply h1.aos-init.aos-animate {
-    width: 280px;
+    width: 250px;
     padding-top: 10px;
   }
 
@@ -1322,6 +1337,7 @@ input[type="text"] {
 @media (max-width: 398px) {
   .header {
     height: 88vh;
+    clip-path: ellipse(100% 45% at 50% 45%);
   }
 
   .title {
@@ -1338,8 +1354,13 @@ input[type="text"] {
   }
 
   .title-img {
-    left: -30px;
+    left: -88px;
     text-align: center;
+  }
+
+  .title-banner {
+    padding-top: 310px;
+    padding-left: 70px;
   }
 
   .navbar-collapse {
@@ -1400,6 +1421,7 @@ input[type="text"] {
 
   .box-white {
     height: 200px;
+    left: 45px;
   }
 
   .box-white h1 {
@@ -1535,6 +1557,11 @@ input[type="text"] {
     height: 79vh;
   }
 
+  .title-banner {
+    padding-top: 356px;
+    padding-left: 39px;
+  }
+
   .title-mobile img {
     width: 200px;
   }
@@ -1542,6 +1569,10 @@ input[type="text"] {
   .title-mobile .button {
     width: 83px;
     font-size: 0.5rem;
+  }
+
+  .title-img {
+    left: -60px;
   }
 
   .title-img .triangel-img {
