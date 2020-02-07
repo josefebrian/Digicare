@@ -27,7 +27,7 @@ body {
 
 .header {
   width: 100%;
-  min-height: 143vh;
+  min-height: 125vh;
   max-height: 150vh;
   background-color: #3464cc;
   clip-path: ellipse(69% 61% at 50% 44%);
@@ -829,7 +829,7 @@ input[type="text"] {
 
   .header {
     width: 100%;
-    min-height: 109vh;
+    min-height: 96vh;
     max-height: 100vh;
     clip-path: ellipse(66% 48% at 50% 44%);
   }
@@ -1106,7 +1106,7 @@ input[type="text"] {
 
   .title-banner {
     padding-top: 270px;
-    padding-left: 120px;
+    padding-left: 24px;
   }
 
   .title-mobile {
@@ -1136,7 +1136,7 @@ input[type="text"] {
   }
 
   img.testimonial-2 {
-    left: 130px;
+    left: 118px;
     width: 180px;
     top: -35px;
   }
@@ -1479,7 +1479,7 @@ input[type="text"] {
   .elevate-mobile p {
     margin-top: -7%;
     padding-right: 0;
-    padding-left: 24%;
+    padding-left: 26%;
     text-align: justify;
     float: left;
     font-size: 12px;
@@ -1492,7 +1492,7 @@ input[type="text"] {
 
   .reply p.aos-init.aos-animate {
     margin-top: -25px;
-    margin-left: 2px;
+    margin-left: 7px;
     font-size: 12px;
   }
 
