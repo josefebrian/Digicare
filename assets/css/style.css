@@ -232,11 +232,10 @@ ul li {
   animation-duration: 4s;
 }
 
-
 .whatWeDo-img1 img {
   position: relative;
   top: 15px;
-  left: 10px;
+  left: 100px;
 }
 
 .whatWeDo-img2 img {
@@ -245,7 +244,7 @@ ul li {
   height: auto;
   position: relative;
   top: 15px;
-  left: 10px;
+  left: 20px;
 }
 
 .title-img {
@@ -346,7 +345,9 @@ img.testimonial-3 {
   z-index: 4;
   left: 115px;
 }
-
+.row-box1 {
+  margin-top: -150px;
+}
 .box-white h1 {
   font-size: 2rem;
   font-family: Gotham-Bold;
@@ -370,7 +371,7 @@ q::after {
 /* Container How we Work */
 .service {
   color: #5a5a5a;
-  padding-top: 100px;
+  padding-top: 0;
   text-align: center;
   padding-bottom: 100px;
 }
@@ -401,9 +402,9 @@ q::after {
 }
 
 .elevate p {
-  margin-top: -10%;
-  margin-left: 1%;
-  padding-left: 25%;
+  margin-top: -7%;
+  padding-right: 17%;
+  padding-left: 20%;
   text-align: justify;
   float: left;
   font-size: 0.8rem;
@@ -436,22 +437,24 @@ q::after {
 .triangelRight {
   position: relative;
   float: right;
-  right: 18px;
-  top: 30px;
+  right: -180px;
+  top: -337px;
   z-index: 5;
-  transform: rotate(250deg);
-  -ms-transform: rotate(250deg);
-  -webkit-transform: rotate(250deg);
-  -o-transform: rotate(250deg);
-  -moz-transform: rotate(250deg);
+  width: 160px;
+  height: 150px;
+  transform: rotate(247deg);
+  -ms-transform: rotate(247deg);
+  -webkit-transform: rotate(247deg);
+  -o-transform: rotate(247deg);
+  -moz-transform: rotate(247deg);
 }
 
 .triangelRightBlueOutline {
   position: relative;
   float: right;
-  right: 15px;
-  top: -60px;
-  z-index: 1;
+  right: -114px;
+  top: 189px;
+  z-index: 7;
   width: 100px;
   transform: rotate(200deg);
   -ms-transform: rotate(200deg);
@@ -462,34 +465,36 @@ q::after {
 
 .triangelRightBottomBlueOutline {
   position: relative;
-  right: 20px;
+  right: -12px;
   float: right;
-  top: -90px;
+  top: -52px;
   z-index: 1;
 }
 
 .triangelLeft {
   position: relative;
-  left: -50px;
+  left: -189px;
   float: left;
-  top: 350px;
-  transform: rotate(-220deg);
-  -ms-transform: rotate(-220deg);
-  -webkit-transform: rotate(-220deg);
-  -o-transform: rotate(220deg);
-  -moz-transform: rotate(220deg);
+  top: 180px;
+  width: 150px;
+  height: 150px;
+  transform: rotate(-352deg);
+  -ms-transform: rotate(-352deg);
+  -webkit-transform: rotate(-352deg);
+  -o-transform: rotate(-352deg);
+  -moz-transform: rotate(-352deg);
 }
 
 .triangelLeftBottomSmall {
   position: relative;
   float: left;
-  left: 100px;
-  top: -90px;
-  transform: rotate(-50deg);
-  -ms-transform: rotate(-50deg);
-  -webkit-transform: rotate(-50deg);
-  -o-transform: rotate(-50deg);
-  -moz-transform: rotate(-50deg);
+  left: 40px;
+  top: -20px;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
 }
 
 .triangelLeftBottom {
@@ -497,11 +502,11 @@ q::after {
   float: left;
   left: 20px;
   top: -10px;
-  transform: rotate(140deg);
-  -ms-transform: rotate(140deg);
-  -webkit-transform: rotate(140deg);
-  -o-transform: rotate(140deg);
-  -moz-transform: rotate(140deg);
+  transform: rotate(125deg);
+  -ms-transform: rotate(125deg);
+  -webkit-transform: rotate(125deg);
+  -o-transform: rotate(125deg);
+  -moz-transform: rotate(125deg);
 }
 
 /* Consumer channels We support */
@@ -620,13 +625,16 @@ input[type="text"] {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
-
   .navbar-dark .navbar-nav ul li {
     padding-left: 9px;
   }
 
   .box-white p {
     font-size: 0.9rem;
+  }
+
+  .row-box1 {
+    margin-top: -150px;
   }
 
   .box-white {
@@ -666,12 +674,12 @@ input[type="text"] {
 
   .whatWeDo-img2 img {
     width: 160px;
-    left: -25px;
+    left: 40px;
   }
 
   .elevate {
     width: 200px;
-    margin-left: -60px;
+    margin-left: 0;
   }
 
   .elevate p {
@@ -680,39 +688,6 @@ input[type="text"] {
 
   .reply p {
     margin-left: 3%;
-  }
-
-  .triangelRight {
-    width: 100px;
-    top: 10px;
-    right: 12px;
-    z-index: 5;
-    position: relative;
-  }
-
-  /* 
-  .triangelRightBottomBlueOutline {} */
-
-  .triangelRightBlueOutline {
-    top: 50px;
-    right: -10px;
-  }
-
-  .triangelLeft {
-    width: 80px;
-  }
-
-  .triangelLeftBottomSmall {
-    left: 5px;
-    top: -40px;
-  }
-
-  .triangelLeftBottom {
-    width: 10px;
-    position: relative;
-    float: left;
-    left: 35px;
-    top: 10px;
   }
 
   .sosialMedia ul li {
@@ -731,29 +706,29 @@ input[type="text"] {
 
 /* Medium devices (tablets, 968px and up) */
 @media (max-width: 998px) {
-
   .header {
     height: 143vh;
   }
-
+  .row-box {
+    margin-top: -150px;
+  }
   .navbar-dark .navbar-nav .nav-item .nav-link {
     padding-left: 0;
   }
 
   .whatWeDo-img1 img {
     width: 200px;
-    left: -100px;
+    left: 10px;
   }
 
   .whatWeDo-img2 img {
     width: 160px;
-    left: -75px;
+    left: 20px;
     top: 20px;
   }
-
   .elevate {
     width: 290px;
-    margin-left: -35px;
+    margin-left: 0;
   }
 
   .elevate p {
@@ -799,7 +774,17 @@ input[type="text"] {
   }
 
   .clients img {
-    padding: 20px;
+    padding: 30px;
+  }
+
+  .triangelRight {
+    position: relative;
+    float: right;
+    right: -190px;
+    top: -700px;
+    z-index: 5;
+    width: 160px;
+    height: 150px;
   }
 
   input[type="text"] {
@@ -809,7 +794,6 @@ input[type="text"] {
 
 /* Medium devices (Tablet, 768px and up) */
 @media (max-width: 768px) {
-
   /*   .navbar-collapse .navbar-nav .nav-item .nav-link {
     padding-left: 20px;
     padding-top: 20px;
@@ -818,7 +802,6 @@ input[type="text"] {
   /*  .navbar-slide {
     padding-top: 50px;
   } */
-
 
   /*   .navbar-collapse {
     background-color: #3464cc;
@@ -888,14 +871,12 @@ input[type="text"] {
   img.testimonial-2 {
     left: 105px;
     top: -10px;
-
   }
 
   img.testimonial-3 {
     left: -80px;
     top: 35px;
   }
-
 
   .box-white {
     width: 95%;
@@ -932,30 +913,52 @@ input[type="text"] {
   }
 
   .service {
-    margin-top: 0px;
+    margin-top: -100px;
   }
-
+  .row-box1 {
+    margin-top: -50px;
+  }
   .whatWeDo-img1 img {
     position: relative;
     top: 15px;
-    left: -100px;
+    left: 30px;
   }
 
   .whatWeDo-img2 img {
-    float: left;
-    width: 200px;
+    width: 150px;
     height: auto;
     position: relative;
-    top: 25px;
-    left: -75px;
+    top: -200px;
+    left: 250px;
+  }
+  .elevate-mobile img.aos-init.aos-animate {
+    width: 90px;
+    height: 90px;
   }
 
-  .elevate-mobile h1 {
-    padding-top: 0px;
+  .elevate-mobile h1.aos-init.aos-animate {
+    width: 380px;
+    margin-top: 30px;
+    text-align: start;
+    float: left;
+    color: #3464cc;
+    font-family: Gotham-Bold;
+    font-size: 16px;
   }
-
   .elevate-mobile p {
-    margin-left: -350px;
+    margin-top: -25px;
+    padding-right: 0;
+    padding-left: 17%;
+    text-align: justify;
+    float: left;
+    font-size: 12px;
+  }
+  .elevate-mobile {
+    margin-top: -120px;
+  }
+  .elevate-mobile h1 {
+    padding-top: 0;
+    margin-left: -10px;
   }
 
   .elevate-mobile img {
@@ -969,7 +972,7 @@ input[type="text"] {
 
   .reply p {
     margin-top: -40px;
-    margin-left: 8px;
+    margin-left: -37px;
   }
 
   .clients img {
@@ -986,13 +989,14 @@ input[type="text"] {
   }
 
   .triangelRight {
-    width: 50px;
-    top: 20px;
-    right: 56px;
-    z-index: 5;
     position: relative;
+    float: right;
+    right: -190px;
+    top: -680px;
+    z-index: 5;
+    width: 160px;
+    height: 150px;
   }
-
 
   .triangelRightBottomBlueOutline {
     top: -65px;
@@ -1020,7 +1024,6 @@ input[type="text"] {
     width: 250px;
   }
 }
-
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 568px) {
@@ -1072,11 +1075,11 @@ input[type="text"] {
 
   .title-mobile img {
     width: 200px;
-    margin-left: 30px;
+    margin-left: 50px;
   }
 
   .title-mobile a {
-    margin-left: 30px;
+    margin-left: 50px;
   }
 
   .navbar-collapse {
@@ -1108,7 +1111,6 @@ input[type="text"] {
 
   .title-mobile {
     margin-top: -80px;
-
   }
 
   .title-img {
@@ -1144,7 +1146,6 @@ input[type="text"] {
     width: 180px;
     top: 15px;
   }
-
 
   .box-white {
     width: 83%;
@@ -1192,8 +1193,8 @@ input[type="text"] {
     height: auto;
     float: left;
     position: relative;
-    top: -40px;
-    left: -88px;
+    top: 130px;
+    left: 10px;
   }
 
   .whatWeDo-img2 img {
@@ -1201,14 +1202,35 @@ input[type="text"] {
     width: 145px;
     height: auto;
     position: relative;
-    top: -200px;
-    left: 60px;
+    top: -30px;
+    left: 150px;
   }
 
   .elevate {
     display: none;
   }
+  .elevate-mobile img.aos-init.aos-animate {
+    width: 90px;
+    height: 90px;
+  }
 
+  .elevate-mobile h1.aos-init.aos-animate {
+    width: 380px;
+    margin-top: 30px;
+    text-align: start;
+    float: left;
+    color: #3464cc;
+    font-family: Gotham-Bold;
+    font-size: 16px;
+  }
+  .elevate-mobile p {
+    margin-top: -25px;
+    padding-right: 0;
+    padding-left: 17%;
+    text-align: justify;
+    float: left;
+    font-size: 12px;
+  }
   .elevate-mobile {
     margin-top: -40px;
   }
@@ -1219,8 +1241,8 @@ input[type="text"] {
     height: 90px;
   }
 
-  .elevate-mobile h1.aos-init.aos-animate {
-    width: 280px;
+  .reply h1 {
+    margin-top: 0;
   }
 
   .reply h1.aos-init.aos-animate {
@@ -1230,7 +1252,7 @@ input[type="text"] {
 
   .reply p.aos-init.aos-animate {
     margin-top: -25px;
-    margin-left: -10px;
+    margin-left: -43px;
   }
 
   .reply img.aos-init.aos-animate {
@@ -1239,19 +1261,8 @@ input[type="text"] {
     height: 80px;
   }
 
-  /*   .service {
-    margin-top: 0px;
-  } */
-
-  .service p {
-    font-size: 0.8rem;
-    margin-top: 10px;
-  }
-
-  .service h1 {
-    text-align: start;
-    width: 100px;
-    font-size: 0.9rem;
+  .service {
+    margin-top: -50px;
   }
 
   .clients h1 {
@@ -1287,13 +1298,14 @@ input[type="text"] {
     font-size: 12px;
     text-align: center;
   }
-
   .triangelRight {
-    width: 50px;
-    top: 20px;
-    right: 9px;
-    z-index: 6;
     position: relative;
+    float: right;
+    right: -87px;
+    top: -847px;
+    z-index: 5;
+    width: 160px;
+    height: 150px;
   }
 
   .triangelRightBottomBlueOutline {
@@ -1304,14 +1316,14 @@ input[type="text"] {
   }
 
   .triangelLeft {
-    width: 80px;
+    left: -40px;
   }
 
   .triangelRightBlueOutline {
     position: relative;
     float: right;
     right: -10px;
-    top: 99px;
+    top: 170px;
     z-index: 1;
     width: 100px;
   }
@@ -1456,10 +1468,22 @@ input[type="text"] {
   }
 
   .elevate-mobile h1.aos-init.aos-animate {
-    width: 200px;
-    margin-top: 10px;
+    width: 180px;
+    margin-top: 30px;
+    text-align: start;
+    float: left;
+    color: #3464cc;
+    font-family: Gotham-Bold;
+    font-size: 13px;
   }
-
+  .elevate-mobile p {
+    margin-top: -7%;
+    padding-right: 0;
+    padding-left: 24%;
+    text-align: justify;
+    float: left;
+    font-size: 12px;
+  }
   .reply h1.aos-init.aos-animate {
     width: 170px;
     margin-top: 3px;
@@ -1468,19 +1492,16 @@ input[type="text"] {
 
   .reply p.aos-init.aos-animate {
     margin-top: -25px;
-    margin-left: 10px;
+    margin-left: 2px;
     font-size: 12px;
   }
 
-  .service p {
-    font-size: 0.5rem;
-    margin-top: -20px;
+  .service {
+    margin-top: -50px;
   }
-
   .reply h1 {
     text-align: start;
     width: 100px;
-
     margin-top: -20px;
   }
 
@@ -1586,7 +1607,51 @@ input[type="text"] {
     top: -39px;
     width: 150px;
   }
+  .elevate-mobile {
+    margin-top: -200px;
+  }
 
+  .elevate-mobile img {
+    float: left;
+    top: -20px;
+    position: relative;
+    width: 90px;
+    height: 90px;
+  }
+
+  .elevate-mobile img.aos-init.aos-animate {
+    width: 90px;
+    height: 90px;
+  }
+
+  .elevate-mobile h1.aos-init.aos-animate {
+    width: 180px;
+    margin-top: 10px;
+  }
+  .elevate-mobile h1 {
+    text-align: start;
+    float: left;
+    width: 187px;
+    margin-top: 11px;
+    font-size: 1rem;
+    color: #3464cc;
+    font-family: Gotham-Bold;
+  }
+
+  .elevate-mobile p {
+    margin-top: -15%;
+    margin-left: -6%;
+    padding-left: 38%;
+    text-align: justify;
+    float: left;
+    font-size: 0.8rem;
+  }
+  .row-box {
+    margin-top: -150px;
+  }
+  .reply {
+    margin-top: auto;
+  }
   .reply p.aos-init.aos-animate {
     margin-left: 25px;
   }
@@ -1611,7 +1676,7 @@ input[type="text"] {
 
   .whatWeDo-img1 img {
     top: -30px;
-    left: -120px;
+    left: -15px;
   }
 
   .box-white {
@@ -1620,7 +1685,7 @@ input[type="text"] {
 
   .whatWeDo-img2 img {
     top: -190px;
-    left: 10px;
+    left: 112px;
   }
 
   .service h1 {
@@ -1636,11 +1701,19 @@ input[type="text"] {
   .clients h1 {
     font-size: 1rem;
   }
-
+  .triangelRight {
+    top: -980px;
+    width: 100px;
+  }
+  .triangelRightBlueOutline {
+    top: 173px;
+  }
   .form h1 {
     font-size: 1rem;
   }
-
+  .service {
+    margin-top: 76px;
+  }
   .container .sosialMedia {
     width: 80%;
   }
