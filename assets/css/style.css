@@ -1228,7 +1228,7 @@ input[type="text"] {
   }
 
   .elevate-mobile h1.aos-init.aos-animate {
-    width: 380px;
+    width: 225px;
     margin-top: 30px;
     text-align: start;
     float: left;
@@ -1261,7 +1261,7 @@ input[type="text"] {
   }
 
   .reply h1.aos-init.aos-animate {
-    width: 250px;
+    width: 225px;
     padding-top: 10px;
   }
 
@@ -1295,18 +1295,17 @@ input[type="text"] {
     padding: 20px;
   }
 
-  .sosialMedia {
-    width: 400px;
-    padding: 10px;
+  .container .sosialMedia {
+    width: 90%;
   }
 
   .sosialMedia ul li {
-    padding: 5px;
+    padding: 10px 10px;
   }
 
   .sosialMedia ul li a img {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 55px;
   }
 
   .footer h1 {
@@ -1404,19 +1403,9 @@ input[type="text"] {
     height: 100%;
   }
 
-  .navbar-brand img {
-    width: 100px;
-    position: relative;
-  }
-
   .title-img img {
     margin-left: -15px;
     width: 100px;
-  }
-
-  .navbar-brand img {
-    width: 100px;
-    position: relative;
   }
 
   .title-img .triangel-img {
@@ -1535,8 +1524,9 @@ input[type="text"] {
     font-size: 0.6rem;
   }
 
-  .sosialMedia {
-    padding: 15px;
+  .container .sosialMedia {
+    width: 90%;
+    padding: 20px;
   }
 
   .sosialMedia ul li {
@@ -1544,8 +1534,8 @@ input[type="text"] {
   }
 
   .sosialMedia ul li a img {
-    width: 25px;
-    height: 30px;
+    width: 40px;
+    height: 45px;
   }
 
   .clients h1 {
@@ -1567,14 +1557,6 @@ input[type="text"] {
     font-size: 12px;
     text-align: center;
   }
-
-  /*   .triangelRight {
-    width: 50px;
-    top: 20px;
-    right: -15px;
-    z-index: 0;
-    position: relative;
-  } */
 
   .triangelLeft {
     width: 80px;
@@ -1647,7 +1629,7 @@ input[type="text"] {
   }
 
   .elevate-mobile h1.aos-init.aos-animate {
-    width: 180px;
+    width: 125px;
     margin-top: 10px;
   }
 
@@ -1677,7 +1659,9 @@ input[type="text"] {
   .reply {
     margin-top: auto;
   }
-
+  .reply h1.aos-init.aos-animate {
+    width: 120px;
+  }
   .reply p.aos-init.aos-animate {
     margin-left: 25px;
   }
@@ -1746,7 +1730,7 @@ input[type="text"] {
   }
 
   .container .sosialMedia {
-    width: 80%;
+    width: 90%;
   }
 
   .sosialMedia ul {
@@ -1759,8 +1743,8 @@ input[type="text"] {
   }
 
   .sosialMedia ul li a img {
-    width: 27px;
-    height: 25px;
+    width: 30px;
+    height: 40px;
   }
 
   input[type="text"] {
