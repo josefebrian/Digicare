@@ -572,6 +572,64 @@ q::after {
   font-family: Gotham-Bold;
 }
 
+.clients img {
+  padding: 10px;
+}
+
+.clients .clients-img {
+  width: 100px;
+  height: 80px;
+}
+
+.clients .clients-img1 {
+  width: 125px;
+  height: 90px;
+}
+
+.clients .clients-img2 {
+  width: 100px;
+  height: 90px;
+}
+.clients .clients-img3 {
+  width: 125px;
+  height: 90px;
+}
+.clients .clients-img4 {
+  width: 130px;
+  height: 80px;
+}
+.clients .clients-img5 {
+  width: 125px;
+  height: 90px;
+}
+.clients .clients-img6 {
+  width: 100px;
+  height: 90px;
+}
+.clients .clients-img7 {
+  width: 100px;
+  height: 90px;
+}
+.clients .clients-img8 {
+  width: 120px;
+  height: 80px;
+}
+.clients .clients-img9 {
+  width: 130px;
+  height: 90px;
+}
+.clients .clients-img10 {
+  width: 100px;
+  height: 90px;
+}
+.clients .clients-img11 {
+  width: 100px;
+  height: 90px;
+}
+.clients .clients-img12 {
+  width: 125px;
+  height: 120px;
+}
 /* Form */
 .form {
   color: #5a5a5a;
@@ -780,10 +838,6 @@ input[type="text"] {
     height: 50px;
   }
 
-  .clients img {
-    padding: 30px;
-  }
-
   .triangelRight {
     position: relative;
     float: right;
@@ -988,7 +1042,66 @@ input[type="text"] {
   }
 
   .clients img {
-    padding: 30px;
+    padding: 10px;
+  }
+
+  .clients img {
+    padding: 10px;
+  }
+
+  .clients .clients-img {
+    width: 120px;
+    height: 100px;
+  }
+
+  .clients .clients-img1 {
+    width: 125px;
+    height: 100px;
+  }
+
+  .clients .clients-img2 {
+    width: 100px;
+    height: 100px;
+  }
+  .clients .clients-img3 {
+    width: 150px;
+    height: 90px;
+  }
+  .clients .clients-img4 {
+    width: 120px;
+    height: 90px;
+  }
+  .clients .clients-img5 {
+    width: 125px;
+    height: 90px;
+  }
+  .clients .clients-img6 {
+    width: 100px;
+    height: 110px;
+  }
+  .clients .clients-img7 {
+    width: 100px;
+    height: 95px;
+  }
+  .clients .clients-img8 {
+    width: 130px;
+    height: 95px;
+  }
+  .clients .clients-img9 {
+    width: 150px;
+    height: 80px;
+  }
+  .clients .clients-img10 {
+    width: 150px;
+    height: 80px;
+  }
+  .clients .clients-img11 {
+    width: 150px;
+    height: 95px;
+  }
+  .clients .clients-img12 {
+    width: 150px;
+    height: 120px;
   }
 
   .sosialMedia ul li {
@@ -1194,12 +1307,6 @@ input[type="text"] {
     font-family: GothamLight;
   }
 
-  .clients img {
-    padding: 5px;
-    width: 85px;
-    height: 70px;
-  }
-
   .whatWeDo-img1 img {
     width: 150px;
     height: auto;
@@ -1285,9 +1392,62 @@ input[type="text"] {
   }
 
   .clients img {
-    padding: 5px;
-    width: 85px;
+    padding: 10px;
+  }
+
+  .clients .clients-img {
+    width: 110px;
     height: 70px;
+  }
+
+  .clients .clients-img1 {
+    width: 120px;
+    height: 60px;
+  }
+
+  .clients .clients-img2 {
+    width: 70px;
+    height: 70px;
+  }
+  .clients .clients-img3 {
+    width: 120px;
+    height: 60px;
+  }
+  .clients .clients-img4 {
+    width: 100px;
+    height: 60px;
+  }
+  .clients .clients-img5 {
+    width: 100px;
+    height: 60px;
+  }
+  .clients .clients-img6 {
+    width: 95px;
+    height: 70px;
+  }
+  .clients .clients-img7 {
+    width: 95px;
+    height: 70px;
+  }
+  .clients .clients-img8 {
+    width: 120px;
+    height: 80px;
+  }
+  .clients .clients-img9 {
+    width: 120px;
+    height: 75px;
+  }
+  .clients .clients-img10 {
+    width: 110px;
+    height: 80px;
+  }
+  .clients .clients-img11 {
+    width: 100px;
+    height: 90px;
+  }
+  .clients .clients-img12 {
+    width: 120px;
+    height: 90px;
   }
 
   .weSupport h1 {
@@ -1462,12 +1622,6 @@ input[type="text"] {
     font-family: GothamLight;
   }
 
-  .clients img {
-    padding: 5px;
-    width: 85px;
-    height: 70px;
-  }
-
   .elevate-mobile img.aos-init.aos-animate {
     width: 90px;
     height: 90px;
@@ -1543,9 +1697,62 @@ input[type="text"] {
   }
 
   .clients img {
-    padding: 5px;
-    width: 85px;
+    padding: 10px;
+  }
+
+  .clients .clients-img {
+    width: 110px;
     height: 70px;
+  }
+
+  .clients .clients-img1 {
+    width: 120px;
+    height: 60px;
+  }
+
+  .clients .clients-img2 {
+    width: 70px;
+    height: 70px;
+  }
+  .clients .clients-img3 {
+    width: 120px;
+    height: 60px;
+  }
+  .clients .clients-img4 {
+    width: 100px;
+    height: 60px;
+  }
+  .clients .clients-img5 {
+    width: 100px;
+    height: 60px;
+  }
+  .clients .clients-img6 {
+    width: 95px;
+    height: 70px;
+  }
+  .clients .clients-img7 {
+    width: 95px;
+    height: 70px;
+  }
+  .clients .clients-img8 {
+    width: 120px;
+    height: 80px;
+  }
+  .clients .clients-img9 {
+    width: 120px;
+    height: 75px;
+  }
+  .clients .clients-img10 {
+    width: 110px;
+    height: 80px;
+  }
+  .clients .clients-img11 {
+    width: 100px;
+    height: 90px;
+  }
+  .clients .clients-img12 {
+    width: 120px;
+    height: 90px;
   }
 
   .weSupport h1 {
