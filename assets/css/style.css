@@ -30,7 +30,7 @@ body {
   height: 140vh;
   background-color: #3464cc;
   clip-path: ellipse(70% 57% at 50% 44%);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -453,7 +453,7 @@ q::after {
 .triangelRightBlueOutline {
   position: relative;
   float: right;
-  right: -114px;
+  right: -70px;
   top: 189px;
   z-index: 7;
   width: 100px;
@@ -466,7 +466,7 @@ q::after {
 
 .triangelRightBottomBlueOutline {
   position: relative;
-  right: -12px;
+  right: 10px;
   float: right;
   top: -52px;
   z-index: 1;
@@ -1067,7 +1067,7 @@ input[type="text"] {
   }
 
   .header {
-    height: 111vh;
+    height: 71vh;
     clip-path: ellipse(81% 48% at 49% 46%);
   }
 
@@ -1118,7 +1118,7 @@ input[type="text"] {
 
   .title-banner {
     padding-top: 270px;
-    padding-left: 24px;
+    left: 24px;
   }
 
   .title-mobile {
@@ -1130,13 +1130,13 @@ input[type="text"] {
   }
 
   .title-img .triangel-img {
-    left: 30px;
+    left: 0px;
     top: -72px;
     width: 260px;
   }
 
   .title-img .girl-img {
-    left: 42px;
+    left: 15px;
     top: -97px;
     width: 260px;
   }
@@ -1144,18 +1144,18 @@ input[type="text"] {
   img.testimonial-1 {
     top: -65px;
     left: -37px;
-    width: 195px;
+    width: 150px;
   }
 
   img.testimonial-2 {
     left: 168px;
-    width: 195px;
+    width: 150px;
     top: -72px;
   }
 
   img.testimonial-3 {
     left: -55px;
-    width: 195px;
+    width: 150px;
     top: 6px;
   }
 
@@ -1364,7 +1364,7 @@ input[type="text"] {
 
 @media (max-width: 398px) {
   .header {
-    height: 108vh;
+    height: 75vh;
     clip-path: ellipse(100% 45% at 50% 45%);
   }
 
@@ -1431,20 +1431,20 @@ input[type="text"] {
   }
 
   img.testimonial-1 {
-    top: -134px;
-    left: 13px;
-    width: 200px;
+    top: -125px;
+    left: 54px;
+    width: 150px;
   }
 
   img.testimonial-2 {
-    left: 232px;
-    width: 168px;
-    top: -130px;
+    left: 235px;
+    width: 135px;
+    top: -120px;
   }
 
   img.testimonial-3 {
     left: 40px;
-    width: 178px;
+    width: 150px;
     top: -35px;
   }
 
@@ -1683,21 +1683,21 @@ input[type="text"] {
   }
 
   img.testimonial-1 {
-    top: -94px;
-    left: 35px;
-    width: 135px;
+    top: -88px;
+    left: 57px;
+    width: 100px;
   }
 
   img.testimonial-2 {
     left: 184px;
-    top: -100px;
-    width: 135px;
+    top: -80px;
+    width: 100px;
   }
 
   img.testimonial-3 {
-    left: 35px;
-    width: 135px;
-    top: -16px;
+    left: 53px;
+    width: 100px;
+    top: 7px;
   }
 
   .whatWeDo-img1 img {
