@@ -27,14 +27,31 @@ body {
 
 .header {
   width: 100%;
-  height: 140vh;
-  background-color: #3464cc;
-  clip-path: ellipse(70% 57% at 50% 44%);
+  height: 93vh;
+  /* background-color: #3464cc; */
+  min-height: 90vh;
+  /*  clip-path: ellipse(70% 57% at 50% 44%); */
+  border-bottom-left-radius: 50% 18%;
+  border-bottom-right-radius: 50% 18%;
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
   position: relative;
   z-index: 2;
+}
+
+.header-inner {
+  width: 100%;
+  height: 600px;
+  background-color: #3464cc;
+  clip-path: ellipse(61% 57% at 50% 44%);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 
 .animated-icon2 {
@@ -206,6 +223,11 @@ body {
   left: 8px;
 }
 
+nav.navbar.navbar-expand-md.navbar-dark.fixed-top {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
 .navbar-dark .navbar-nav .nav-item .nav-link {
   color: #fff;
   font-family: GothamBlack;
@@ -252,8 +274,10 @@ ul li {
 }
 
 .title-banner {
-  padding-top: 300px;
-  padding-left: 100px;
+  padding-top: 220px;
+  padding-left: 180px;
+  position: relative;
+  z-index: 1;
 }
 
 .title-banner img {
@@ -280,8 +304,8 @@ img.testimonial-1 {
   animation-duration: 2s;
   width: 250px;
   height: auto;
-  top: 30px;
-  right: 45px;
+  top: 8px;
+  right: 86px;
   z-index: 0;
   position: relative;
 }
@@ -332,14 +356,13 @@ img.testimonial-3 {
 
 .box-white {
   width: 85%;
-  height: 200px;
-  padding: 5px 25px;
-  border-radius: 50px;
+  height: 220px;
+  padding: 15px 25px;
+  border-radius: 30px;
   text-align: center;
   background-color: #fff;
   color: #5a5a5a;
-  margin-top: -150px;
-  bottom: 0;
+  margin-top: 85px;
   position: relative;
   z-index: 4;
   left: 115px;
@@ -409,6 +432,7 @@ q::after {
   text-align: justify;
   float: left;
   font-size: 0.8rem;
+  font-family: GothamLight;
 }
 
 .reply img {
@@ -432,6 +456,7 @@ q::after {
   text-align: justify;
   float: left;
   font-size: 0.8rem;
+  font-family: GothamLight;
 }
 
 /* triangelBlue */
@@ -543,8 +568,8 @@ q::after {
 }
 
 .sosialMedia ul li a img {
-  width: 70px;
-  height: 60px;
+  width: 80px;
+  height: 75px;
 }
 
 .sosialMedia ul li:hover {
@@ -582,54 +607,65 @@ q::after {
 }
 
 .clients .clients-img1 {
-  width: 125px;
-  height: 90px;
+  width: 130px;
+  height: 95px;
 }
 
 .clients .clients-img2 {
   width: 100px;
   height: 90px;
 }
+
 .clients .clients-img3 {
   width: 125px;
   height: 90px;
 }
+
 .clients .clients-img4 {
   width: 130px;
   height: 80px;
 }
+
 .clients .clients-img5 {
   width: 125px;
   height: 90px;
 }
+
 .clients .clients-img6 {
   width: 100px;
   height: 90px;
 }
+
 .clients .clients-img7 {
   width: 100px;
   height: 90px;
 }
+
 .clients .clients-img8 {
   width: 120px;
   height: 80px;
 }
+
 .clients .clients-img9 {
-  width: 130px;
-  height: 90px;
+  width: 180px;
+  height: 80px;
 }
+
 .clients .clients-img10 {
-  width: 100px;
-  height: 90px;
+  width: 190px;
+  height: 80px;
 }
+
 .clients .clients-img11 {
   width: 100px;
   height: 90px;
 }
+
 .clients .clients-img12 {
   width: 125px;
   height: 120px;
 }
+
 /* Form */
 .form {
   color: #5a5a5a;
@@ -703,8 +739,8 @@ input[type="text"] {
   img.testimonial-1 {
     width: 250px;
     height: auto;
-    top: 30px;
-    right: 45px;
+    top: 8px;
+    right: 86px;
     z-index: 0;
     position: relative;
   }
@@ -765,9 +801,20 @@ input[type="text"] {
 
 /* Medium devices (tablets, 968px and up) */
 @media (max-width: 998px) {
-  .header {
-    height: 143vh;
-    clip-path: ellipse(69% 52% at 51% 46%);
+  .header-inner {
+    clip-path: ellipse(75% 52% at 51% 46%);
+  }
+
+  nav.navbar.navbar-expand-md.navbar-dark.fixed-top {
+    padding-right: 10%;
+    padding-left: 15%;
+  }
+
+  .title-banner {
+    padding-top: 220px;
+    padding-left: 110px;
+    position: relative;
+    z-index: 1;
   }
 
   .row-box {
@@ -776,6 +823,10 @@ input[type="text"] {
 
   .navbar-dark .navbar-nav .nav-item .nav-link {
     padding-left: 0;
+  }
+
+  .box-white {
+    left: 60px;
   }
 
   .whatWeDo-img1 img {
@@ -834,8 +885,8 @@ input[type="text"] {
   }
 
   .sosialMedia ul li a img {
-    width: 40px;
-    height: 50px;
+    width: 60px;
+    height: 55px;
   }
 
   .triangelRight {
@@ -855,29 +906,6 @@ input[type="text"] {
 
 /* Medium devices (Tablet, 768px and up) */
 @media (max-width: 768px) {
-  /*   .navbar-collapse .navbar-nav .nav-item .nav-link {
-    padding-left: 20px;
-    padding-top: 20px;
-  } */
-
-  /*  .navbar-slide {
-    padding-top: 50px;
-  } */
-
-  /*   .navbar-collapse {
-    background-color: #3464cc;
-    opacity: 1;
-    color: #000000;
-    opacity: 0.8;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 10000;
-    width: 100%;
-    height: 100%;
-    padding-top: 25px;
-  } */
-
   .navbar-dark .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
     padding: 5px;
@@ -888,10 +916,8 @@ input[type="text"] {
     border-bottom: none;
   }
 
-  .header {
-    width: 100%;
-    height: 109vh;
-    clip-path: ellipse(66% 48% at 50% 44%);
+  .header-inner {
+    clip-path: ellipse(70% 50% at 50% 20%);
   }
 
   #slide-navbar {
@@ -899,8 +925,10 @@ input[type="text"] {
   }
 
   .title-banner {
-    padding-top: 250px;
-    padding-left: 0;
+    padding-top: 220px;
+    padding-left: 85px;
+    position: relative;
+    z-index: 1;
   }
 
   .title-img {
@@ -939,18 +967,15 @@ input[type="text"] {
   }
 
   .box-white {
-    width: 95%;
-    height: 138px;
-    padding: 17px 5px;
-    border-radius: 20px;
+    width: 85%;
+    height: 175px;
+    padding: 15px 25px;
     text-align: center;
     background-color: #fff;
     color: #5a5a5a;
-    margin-top: -150px;
-    bottom: 0;
+    margin-top: 45px;
     position: relative;
     z-index: 4;
-    left: 20px;
   }
 
   .box-white h1 {
@@ -1063,42 +1088,52 @@ input[type="text"] {
     width: 100px;
     height: 100px;
   }
+
   .clients .clients-img3 {
     width: 150px;
     height: 90px;
   }
+
   .clients .clients-img4 {
     width: 120px;
     height: 90px;
   }
+
   .clients .clients-img5 {
     width: 125px;
     height: 90px;
   }
+
   .clients .clients-img6 {
     width: 100px;
     height: 110px;
   }
+
   .clients .clients-img7 {
     width: 100px;
     height: 95px;
   }
+
   .clients .clients-img8 {
     width: 130px;
     height: 95px;
   }
+
   .clients .clients-img9 {
     width: 150px;
     height: 80px;
   }
+
   .clients .clients-img10 {
     width: 150px;
     height: 80px;
   }
+
   .clients .clients-img11 {
     width: 150px;
     height: 95px;
   }
+
   .clients .clients-img12 {
     width: 150px;
     height: 120px;
@@ -1110,7 +1145,7 @@ input[type="text"] {
 
   .sosialMedia ul li a img {
     width: 40px;
-    height: 50px;
+    height: 40px;
   }
 
   .triangelRight {
@@ -1152,6 +1187,11 @@ input[type="text"] {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 568px) {
+  nav.navbar.navbar-expand-md.navbar-dark.fixed-top {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .navbar-slide {
     padding-top: 50px;
   }
@@ -1180,8 +1220,31 @@ input[type="text"] {
   }
 
   .header {
-    height: 71vh;
-    clip-path: ellipse(81% 48% at 49% 46%);
+    width: 100%;
+    height: 93vh;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .header-inner {
+    width: 100%;
+    height: 600px;
+    background-color: #3464cc;
+    clip-path: ellipse(80% 57% at 50% 24%);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  .background {
+    margin-top: -350px;
   }
 
   .title {
@@ -1261,30 +1324,15 @@ input[type="text"] {
   }
 
   img.testimonial-2 {
-    left: 168px;
+    left: 140px;
     width: 150px;
-    top: -72px;
+    top: -54px;
   }
 
   img.testimonial-3 {
     left: -55px;
     width: 150px;
     top: 6px;
-  }
-
-  .box-white {
-    width: 83%;
-    height: 170px;
-    padding: 5px 5px;
-    border-radius: 20px;
-    text-align: center;
-    background-color: #fff;
-    color: #5a5a5a;
-    margin-top: -150px;
-    bottom: 0;
-    position: relative;
-    z-index: 4;
-    left: 60px;
   }
 
   .box-white h1 {
@@ -1345,16 +1393,17 @@ input[type="text"] {
   }
 
   .elevate-mobile p {
-    margin-top: -25px;
+    margin-top: -10px;
     padding-right: 0;
     padding-left: 17%;
     text-align: justify;
     float: left;
     font-size: 12px;
+    font-family: GothamLight;
   }
 
   .elevate-mobile {
-    margin-top: -40px;
+    margin-top: -30px;
   }
 
   .elevate-mobile img.aos-init.aos-animate {
@@ -1409,42 +1458,52 @@ input[type="text"] {
     width: 70px;
     height: 70px;
   }
+
   .clients .clients-img3 {
     width: 120px;
     height: 60px;
   }
+
   .clients .clients-img4 {
     width: 100px;
     height: 60px;
   }
+
   .clients .clients-img5 {
     width: 100px;
     height: 60px;
   }
+
   .clients .clients-img6 {
     width: 95px;
     height: 70px;
   }
+
   .clients .clients-img7 {
     width: 95px;
     height: 70px;
   }
+
   .clients .clients-img8 {
     width: 120px;
     height: 80px;
   }
+
   .clients .clients-img9 {
     width: 120px;
     height: 75px;
   }
+
   .clients .clients-img10 {
     width: 110px;
     height: 80px;
   }
+
   .clients .clients-img11 {
     width: 100px;
     height: 90px;
   }
+
   .clients .clients-img12 {
     width: 120px;
     height: 90px;
@@ -1522,9 +1581,37 @@ input[type="text"] {
 }
 
 @media (max-width: 398px) {
+  nav.navbar.navbar-expand-md.navbar-dark.fixed-top {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .header {
-    height: 75vh;
-    clip-path: ellipse(100% 45% at 50% 45%);
+    width: 100%;
+    height: 93vh;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .header-inner {
+    width: 100%;
+    height: 600px;
+    background-color: #3464cc;
+    clip-path: ellipse(108% 58% at 50% 26%);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  .background {
+    margin-top: -290px;
   }
 
   .title {
@@ -1547,7 +1634,7 @@ input[type="text"] {
 
   .title-banner {
     padding-top: 310px;
-    padding-left: 70px;
+    padding-left: 55px;
   }
 
   .navbar-collapse {
@@ -1600,6 +1687,7 @@ input[type="text"] {
   .box-white {
     height: 200px;
     left: 45px;
+    margin-top: 10px;
   }
 
   .box-white h1 {
@@ -1714,42 +1802,52 @@ input[type="text"] {
     width: 70px;
     height: 70px;
   }
+
   .clients .clients-img3 {
     width: 120px;
     height: 60px;
   }
+
   .clients .clients-img4 {
     width: 100px;
     height: 60px;
   }
+
   .clients .clients-img5 {
     width: 100px;
     height: 60px;
   }
+
   .clients .clients-img6 {
     width: 95px;
     height: 70px;
   }
+
   .clients .clients-img7 {
     width: 95px;
     height: 70px;
   }
+
   .clients .clients-img8 {
     width: 120px;
     height: 80px;
   }
+
   .clients .clients-img9 {
     width: 120px;
     height: 75px;
   }
+
   .clients .clients-img10 {
     width: 110px;
     height: 80px;
   }
+
   .clients .clients-img11 {
     width: 100px;
     height: 90px;
   }
+
   .clients .clients-img12 {
     width: 120px;
     height: 90px;
@@ -1783,14 +1881,42 @@ input[type="text"] {
 }
 
 @media (max-width: 320px) {
+  nav.navbar.navbar-expand-md.navbar-dark.fixed-top {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .header {
-    height: 95vh;
-    clip-path: ellipse(120% 47% at 50% 38%);
+    width: 100%;
+    height: 93vh;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .header-inner {
+    width: 100%;
+    height: 600px;
+    background-color: #3464cc;
+    clip-path: ellipse(100% 36% at 50% 30%);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  .background {
+    margin-top: -310px;
   }
 
   .title-banner {
     padding-top: 280px;
-    padding-left: 39px;
+    padding-left: 15px;
   }
 
   .title-mobile img {
@@ -1866,9 +1992,11 @@ input[type="text"] {
   .reply {
     margin-top: auto;
   }
+
   .reply h1.aos-init.aos-animate {
     width: 120px;
   }
+
   .reply p.aos-init.aos-animate {
     margin-left: 25px;
   }
@@ -1898,6 +2026,7 @@ input[type="text"] {
 
   .box-white {
     left: 40px;
+    height: 290px;
   }
 
   .whatWeDo-img2 img {
