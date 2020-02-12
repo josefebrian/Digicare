@@ -7,11 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="Description" content="Author: DigiCare, Category: Website, Company: DigiCare" />
   <title>Digicare.com</title>
+  <link rel="icon" href="./assets/img/Logo DigiCare_white@2x.png" type="image/icon">
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/aos.css" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/sweetalert.min.css" />
-  <script type="text/javascript" src="/assets/js/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/sweetalert.min.css" />
+
 </head>
 
 <body>
@@ -65,7 +66,7 @@
 
 
   <div class="container-fluid header" id="header">
-      <div class="container">
+    <div class="container">
       <div class="row title-banner">
         <div class="col-6 col-sm-6 col-md-6 col-lg-6 title d-xs-none d-sm-block d-md-block d-lg-block d-xl-block ">
           <img src="./assets/img/Title Banner@2x.png" alt="title" /><br />
@@ -82,30 +83,30 @@
       </div>
 
       <div class="header-inner"></div>
-          <div class="row box-white">
-            <div class="col-12 col-sm-6 col-md-5 col-lg-5">
-              <h1 data-aos="zoom-in-up">
-                <q>Trusted by Brands, Loved by Customers.</q>
-              </h1>
-            </div>
-            <div class="col-12 col-sm-6 col-md-7 col-lg-7">
-              <p data-aos="zoom-in-up">
-                DigiCare is proud to be the award-winning whitelabel realtionship
-                service trusted by brands, from FMCGs to automotive industry, to
-                elevate their online customer experience.
-                <br />
-                <br />
-                Width more than 5 years of experience, our team of agents trained
-                to provide exceptional social customer care. No matter the size of
-                your challenge, we have you completely covered!
-              </p>
-            </div>
-          </div>
+      <div class="row box-white">
+        <div class="col-12 col-sm-6 col-md-5 col-lg-5">
+          <h1 data-aos="zoom-in-up">
+            <q>Trusted by Brands, Loved by Customers.</q>
+          </h1>
+        </div>
+        <div class="col-12 col-sm-6 col-md-7 col-lg-7">
+          <p data-aos="zoom-in-up">
+            DigiCare is proud to be the award-winning whitelabel realtionship
+            service trusted by brands, from FMCGs to automotive industry, to
+            elevate their online customer experience.
+            <br />
+            <br />
+            Width more than 5 years of experience, our team of agents trained
+            to provide exceptional social customer care. No matter the size of
+            your challenge, we have you completely covered!
+          </p>
+        </div>
       </div>
     </div>
+  </div>
 
 
-<!--   <div class="container text-center box">
+  <!--   <div class="container text-center box">
     <div class="row box-white">
       <div class="col-12 col-sm-6 col-md-5 col-lg-5">
         <h1 data-aos="zoom-in-up">
@@ -405,38 +406,46 @@
   </div>
   <!-- Form -->
   <div class="container-fluid form text-center" id="Contact">
-    <form action="email.php" method="POST" id="from-validate" name="from-contact">
+    <form method="POST" action="email.php" name="form-input">
       <div class="container text-center">
         <h1>Let us <span>Help</span></h1>
         <div class="form-row">
           <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-            <input type="text" class="form-control" placeholder="Name" id="name" name="name" />
+            <input type="text" class="form-control" placeholder="Name" id="name" name="name" required />
+
           </div>
           <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-            <input type="text" class="form-control" placeholder="Phone" id="phone" name="phone" />
+            <input type="text" class="form-control" placeholder="Phone" id="phone" name="phone" pattern="[0-9]+"
+              title="Only number to allowed" required />
+
           </div>
         </div>
 
         <div class="form-row">
           <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-            <input type="text" class="form-control" placeholder="E-mail" id="email" name="email"  />
+            <input type="text" class="form-control" placeholder="E-mail" id="email" name="email"
+              pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" required />
+
           </div>
           <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-            <input type="text" class="form-control" placeholder="Company" id="company" name="company"  />
+            <input type="text" class="form-control" placeholder="Company" id="company" name="company" required />
+
           </div>
         </div>
 
         <div class="form-row">
           <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-            <input type="text" class="form-control" placeholder="Industry" id="industry" name="industry"  />
+            <input type="text" class="form-control" placeholder="Industry" id="industry" name="industry" required />
+
           </div>
           <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
             <input type="text" class="form-control" placeholder="Number of Employees" id="employed" name="employed"
-               />
+              required />
+
           </div>
         </div>
         <div class="container p-5">
-          <button type="submit" class="btn-read" onclick="validate()">Send</button>
+          <input type="submit" class="btn-read" name="submit" value="Send" />
         </div>
       </div>
     </form>
@@ -450,6 +459,7 @@
     <h1>Copyrights DigiCare | All Rights Reserved</h1>
   </div>
 
+  <script src="./assets/js/sweetalert.min.js"></script>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/main.js"></script>
@@ -458,21 +468,19 @@
     AOS.init({
       duration: 1000
     });
-    
-  </script>
 
-      <!--Start of Tawk.to Script-->
-          <script type="text/javascript">
-            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-            (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/5e425b30298c395d1ce7494f/default';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-            })();
-            </script>
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/5e425b30298c395d1ce7494f/default';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
   <!--End of Tawk.to Script-->
 </body>
 
