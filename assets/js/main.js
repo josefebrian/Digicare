@@ -35,32 +35,4 @@ $(document).ready(function () {
         });
     });
 
-    /* 
-        $("form[name='from-contact']").validate({
-            rules: {
-                name: 'required';
-                phone: {
-                    number: true
-                }
-                'required';
-                email: {
-                    required: true,
-                    email: true
-                }
-                company: 'required';
-                employed: 'required';
-                industry: 'required';
-            },
-            messages: {
-                name: "Please enter your name",
-                phone: "Please enter number",
-                email: "Please enter a valid email address",
-                company: "Please enter your company",
-                industry: "Please enter your Industry",
-                employed: "Please enter your employed"
-            },
-            submitHandler: function (form) {
-                form.submit();
-            }
-        }); */
 });

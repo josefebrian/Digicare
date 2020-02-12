@@ -33,24 +33,10 @@ try{
     <br/> Email : '.$_POST["email"].'  <br/> Company : '.$_POST["company"].'
     <br/> Industry : '.$_POST["industry"].' <br/> Employed : '.$_POST["employed"].' </h3>';
 
-    if(!$mail->send()){
-        echo "<script>
-        Swal.fire({
-            icon: 'success',
-            title: 'Your work has been saved',
-            showConfirmButton: false,
-            timer: 1500
-          }) </script>";
-    }else{
-        echo "<script>
-        Swal.fire({
-            icon: 'error',
-            title: 'Something went wrong!',
-            showConfirmButton: false,
-            timer: 1500
-          }) </script>";
-    }
-}catch ( Exception $e ){
-    echo 'Caught exception: ',  $e->getMessage(), "\n";
-}
+        $mail->send();
+        header("Location: http://localhost/Digicare/#Contact");
+        echo 'Message has been sent';
+        } catch (Exception $e) {
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        }
 ?>
