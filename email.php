@@ -34,8 +34,7 @@ try{
     <br/> Industry : '.$_POST["industry"].' <br/> Employed : '.$_POST["employed"].' </h3>';
 
         $mail->send();
-        header("Location: http://localhost/Digicare/#Contact");
-        echo 'Message has been sent';
+        echo "<script>alert('Thank you for contact us');location.href ='https://localhost/Digicare/';</script>";
         } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
