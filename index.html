@@ -1,820 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="Description"
-      content="Author: DigiCare, Category: Website, Company: DigiCare"
-    />
-    <title>Digicare.com</title>
-    <link
-      rel="icon"
-      href="./assets/img/Logo DigiCare_white@2x.png"
-      type="image/icon"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/aos.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  </head>
 
-  <body>
-    <!--Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <a class="navbar-brand" href="/">
-        <img
-          src="./assets/img/Logo DigiCare_white@2x.png"
-          alt="Logo"
-          width="150px"
-        />
-      </a>
-      <button
-        class="navbar-toggler third-button"
-        type="button"
-        data-toggle="slide-collapse"
-        data-target="#slide-collapse"
-        aria-controls="#slide-collapse"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <div class="animated-icon3">
-          <span></span>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="Description" content="Author: DigiCare, Category: Website, Company: DigiCare" />
+  <title>Digicare.com</title>
+  <link rel="icon" href="./assets/img/Logo DigiCare_white@2x.png" type="image/icon" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <script src="./assets/js/sweetalert.js"></script>
+</head>
+
+<body>
+  <!--Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <a class="navbar-brand" href="/">
+      <img src="./assets/img/Logo DigiCare_white@2x.png" alt="Logo" width="150px" />
+    </a>
+    <button class="navbar-toggler third-button" type="button" data-toggle="slide-collapse" data-target="#slide-collapse"
+      aria-controls="#slide-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon3">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </button>
+
+    <div id="slide-collapse" class="collapse navbar-collapse">
+      <button id="slide-navbar" class="navbar-toggler third-button" type="button" data-toggle="slide-collapse"
+        data-target="#slide-collapse" aria-controls="#slide-collapse" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <div class="animated-icon2">
           <span></span>
           <span></span>
         </div>
       </button>
-
-      <div id="slide-collapse" class="collapse navbar-collapse">
-        <button
-          id="slide-navbar"
-          class="navbar-toggler third-button"
-          type="button"
-          data-toggle="slide-collapse"
-          data-target="#slide-collapse"
-          aria-controls="#slide-collapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <div class="animated-icon2">
-            <span></span>
-            <span></span>
-          </div>
-        </button>
-        <div class="navbar-slide ml-auto">
-          <ul class="nav navbar-nav">
-            <li class="nav-item">
-              <a href="#header" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#How" class="nav-link">How we work</a>
-            </li>
-            <li class="nav-item">
-              <a href="#Flow" class="nav-link">Flow of work</a>
-            </li>
-            <li class="nav-item">
-              <a href="#Achievement" class="nav-link">Achievement</a>
-            </li>
-            <li class="nav-item">
-              <a href="#Client" class="nav-link">Client</a>
-            </li>
-            <li class="nav-item">
-              <a href="#Contact" class="nav-link">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container-fluid header" id="header">
-      <div class="container">
-        <div class="row title-banner">
-          <div
-            class="col-6 col-sm-6 col-md-6 col-lg-6 title d-xs-none d-sm-block d-md-block d-lg-block d-xl-block "
-          >
-            <img src="./assets/img/Title Banner@2x.png" alt="title" /><br />
-            <a href="#Contact" class="button" role="button" aria-pressed="true"
-              >Let us help &#62;</a
-            >
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-6 title-img">
-            <img
-              class="img-responsive triangel-img"
-              src="./assets/img/triangle awards sliders2.png"
-              alt="triangel-img"
-            />
-            <img
-              class="img-responsive girl-img"
-              src="./assets//img/Banner-girl.png"
-              alt="img-girl"
-            />
-            <img
-              class="img-responsive testimonial-1"
-              src="./assets/img/Banner-testi1.png"
-              alt="testimonial-1"
-            />
-            <img
-              class="img-responsive testimonial-2"
-              src="./assets/img/Banner-testi2.png"
-              alt="testimonial-2"
-            />
-            <img
-              class="img-responsive testimonial-3"
-              src="./assets/img/Banner-testi3.png"
-              alt="testimonial-3"
-            />
-          </div>
-        </div>
-
-        <div class="header-inner"></div>
-        <div class="row box-white">
-          <div class="col-12 col-sm-6 col-md-5 col-lg-5">
-            <h1 data-aos="zoom-in-up">
-              <q>Trusted by Brands, Loved by Customers.</q>
-            </h1>
-          </div>
-          <div class="col-12 col-sm-6 col-md-7 col-lg-7">
-            <p data-aos="zoom-in-up">
-              DigiCare is proud to be the award-winning whitelabel realtionship
-              service trusted by brands, from FMCGs to automotive industry, to
-              elevate their online customer experience.
-              <br />
-              <br />
-              With more than 5 years of experience, our team of agents trained
-              to provide exceptional social customer care. No matter the size of
-              your challenge, we have you completely covered!
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid background" id="How">
-      <!-- Mode mobile -->
-      <div
-        class="row title-mobile d-xs-block d-sm-none d-md-none d-lg-none d-xl-none"
-        data-aos="fade-right"
-        data-aos-delay="300"
-      >
-        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-          <img src="./assets/img/Title Banner mobile.png" alt="title" /><br />
-          <a href="#Contact" class="button" role="button" aria-pressed="true"
-            >Let us help &#62;</a
-          >
-        </div>
-      </div>
-
-      <!-- Container How we Work -->
-
-      <div class="container service" id="Flow">
-        <div class="row pb-md-5">
-          <div class="col-md-3 col-lg-3 col-xl-3 whatWeDo-img1">
-            <img
-              data-aos="fade-up"
-              src="./assets/img/What We Do@2x.png"
-              alt="What-we-do-logo"
-              width="200px"
-              height="auto"
-            />
-          </div>
-
-          <div class="col-md-3 col-lg-3 col-xl-3 pt-lg-2 pr-lg-5 whatWeDo-img2">
-            <img
-              data-aos="fade-up"
-              src="./assets/img/Line 2.png"
-              alt="line-logo"
-              width="150px"
-              height="auto"
-            />
-          </div>
-
-          <div
-            class="col-12 col-md-6 col-lg-6 col-xl-6 d-xl-block d-lg-block d-md-block d-sm-none d-xs-none pt-5 elevate"
-          >
-            <img
-              src="./assets/img/Group 60s.png"
-              alt="elevate-logo"
-              width="110px"
-              height="100px"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            />
-            <h1 data-aos="fade-up" data-aos-delay="200">
-              ELEVATE YOUR <br />
-              COSTUMER EXPERIENCE
-            </h1>
-            <p data-aos="fade-up" data-aos-delay="300">
-              Save your time to respond to all your customer's inquiris online.
-              Our dedicated agents will work round the clock to provide
-              responsive social customer care with efficienct and speed.
-            </p>
-          </div>
-          <div class="triangelLeft">
-            <img
-              class="img-fluid"
-              src="./assets/img/triangle small blue bottom@2x.png"
-              alt="triangelLeft"
-            />
-          </div>
-        </div>
-
-        <div class="row row-box1">
-          <div class="col-lg-1"></div>
-          <!-- mode mobile -->
-          <div
-            class="col-12 col-md-6 col-lg-6 col-xl-6 d-xs-block d-sm-block d-md-none d-lg-none d-xl-none elevate-mobile"
-          >
-            <img
-              src="./assets/img/Group 60s.png"
-              alt="elevate-logo"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            />
-            <h1 data-aos="fade-up" data-aos-delay="200" width="200px">
-              ELEVATE YOUR COSTUMER EXPERIENCE
-            </h1>
-            <p data-aos="fade-up" data-aos-delay="300">
-              Save your time to respond to all your customer's inquiris online.
-              Our dedicated agents will work round the clock to provide
-              responsive social customer care with efficienct and speed.
-            </p>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-6 col-lg-5 reply">
-            <img
-              src="./assets/img/Group 58s.png"
-              alt="reply-logo"
-              width="100px"
-              height="100px"
-              data-aos="fade-up"
-            />
-            <h1 data-aos="fade-up" data-aos-delay="300">REPLY INQUIRIES</h1>
-            <p data-aos="fade-up" data-aos-delay="400">
-              There's no holiday for us to turn every negative complaint into a
-              positive compliment. Our dedicated agents will be working 12 hours
-              a day to resolve all the inquiries quickly and also ensure any
-              complaint is seamlessly handed to your representative before the
-              story gets ahead you.
-            </p>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-5 reply">
-            <img
-              src="./assets/img/Group 59s.png"
-              alt="address-logo"
-              width="100px"
-              height="100px"
-              data-aos="fade-up"
-            />
-            <h1 data-aos="fade-up" data-aos-delay="500">
-              ADDRESS COMPLAINTS
-            </h1>
-            <p data-aos="fade-up" data-aos-delay="600">
-              Speed up all your social customer care operations with our
-              dedicates agents working thoroughly to respond to all the
-              inquiries across all channels, Our agents will be working in a
-              shift to carefully resolve every customer inquiries in less than
-              30 minutes.
-            </p>
-          </div>
-          <div class="col-lg-1">
-            <div class="triangelRight">
-              <img
-                class="img-fluid"
-                src="./assets/img/triangle blue bottom@2x.png"
-                alt="triangelBlue"
-                width="200px"
-                height="150px"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="row pt-lg-5 pt-xl-5 pt-md-5 row-box">
-          <div class="col-lg-1"></div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-5 reply">
-            <img
-              src="./assets/img/Group 57s.png"
-              alt="gain-logo"
-              width="100px"
-              height="100px"
-              data-aos="fade-up"
-            />
-            <h1 data-aos="fade-up" data-aos-delay="700">GAIN INSIGHTS</h1>
-            <p data-aos="fade-up" data-aos-delay="800">
-              Need to drive brand loyalty and build consumer advocacy in sosial
-              media? You can get the best of both worlds with us by letting our
-              agents nurturing a meaningful relationship with your customers
-              across all channels.
-            </p>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-5 reply">
-            <img
-              src="./assets/img/Group 56s.png"
-              alt="increase-logo"
-              width="100px"
-              height="100px"
-              data-aos="fade-up"
-            />
-            <h1 data-aos="fade-up" data-aos-delay="900">
-              INCREASE BRAND LOVE
-            </h1>
-            <p data-aos="fade-up" data-aos-delay="1000">
-              Need a life-saver to understand what your customer wants? Our team
-              of agents will help you connect with your customer on a deeper
-              level by excerpting meaningful interactions into actionable in
-            </p>
-          </div>
-          <div class="col-lg-1">
-            <div class="triangelRightBlueOutline">
-              <img
-                src="./assets/img/triangle blue bottom@2x.png"
-                alt="triangelBlue"
-                width="100px"
-                height="120px"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- We support -->
-    <div class="container weSupport text-center">
-      <h1>Consumer Channels We <span>Support</span></h1>
-      <div class="container sosialMedia">
-        <ul>
-          <li>
-            <a href="http://" target="_blank" rel="noopener">
-              <img
-                data-aos="flip-right"
-                data-aos-delay="100"
-                src="./assets/img/Group 6.png"
-                alt="Instagram-logo"
-              />
-            </a>
+      <div class="navbar-slide ml-auto">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a href="#header" class="nav-link">Home</a>
           </li>
-          <li>
-            <a href="http://" target="_blank" rel="noopener">
-              <img
-                data-aos="flip-right"
-                data-aos-delay="200"
-                src="./assets/img/Group 5.png"
-                alt="facebook-logo"
-              />
-            </a>
+          <li class="nav-item">
+            <a href="#How" class="nav-link">How we work</a>
           </li>
-          <li>
-            <a href="http://" target="_blank" rel="noopener">
-              <img
-                data-aos="flip-right"
-                data-aos-delay="300"
-                src="./assets/img/Group 4.png"
-                alt="youtube-logo"
-              />
-            </a>
+          <li class="nav-item">
+            <a href="#Flow" class="nav-link">Flow of work</a>
           </li>
-          <li>
-            <a href="http://" target="_blank" rel="noopener">
-              <img
-                data-aos="flip-right"
-                data-aos-delay="400"
-                src="./assets/img/Group 3.png"
-                alt="twitter-logo"
-              />
-            </a>
+          <li class="nav-item">
+            <a href="#Achievement" class="nav-link">Achievement</a>
           </li>
-          <li>
-            <a href="http://" target="_blank" rel="noopener">
-              <img
-                data-aos="flip-right"
-                data-aos-delay="500"
-                src="./assets/img/Group 2.png"
-                alt="linkedin-logo"
-              />
-            </a>
+          <li class="nav-item">
+            <a href="#Client" class="nav-link">Client</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Contact" class="nav-link">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
+  </nav>
 
-    <div class="triangelLeftBottomSmall">
-      <img
-        src="./assets/img/triangle small blue bottom@2x.png"
-        alt="triangelBlue"
-        width="30px"
-        height="40px"
-      />
+  <div class="container-fluid header" id="header">
+    <div class="container">
+      <div class="row title-banner">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 title d-xs-none d-sm-block d-md-block d-lg-block d-xl-block ">
+          <img src="./assets/img/Title Banner@2x.png" alt="title" /><br />
+          <a href="#Contact" class="button" role="button" aria-pressed="true">Let us help &#62;</a>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 title-img">
+          <img class="img-responsive triangel-img" src="./assets/img/triangle awards sliders2.png" alt="triangel-img" />
+          <img class="img-responsive girl-img" src="./assets//img/Banner-girl.png" alt="img-girl" />
+          <img class="img-responsive testimonial-1" src="./assets/img/Banner-testi1.png" alt="testimonial-1" />
+          <img class="img-responsive testimonial-2" src="./assets/img/Banner-testi2.png" alt="testimonial-2" />
+          <img class="img-responsive testimonial-3" src="./assets/img/Banner-testi3.png" alt="testimonial-3" />
+        </div>
+      </div>
+
+      <div class="header-inner"></div>
+      <div class="row box-white">
+        <div class="col-12 col-sm-6 col-md-5 col-lg-5">
+          <h1 data-aos="zoom-in-up">
+            <q>Trusted by Brands, Loved by Customers.</q>
+          </h1>
+        </div>
+        <div class="col-12 col-sm-6 col-md-7 col-lg-7">
+          <p data-aos="zoom-in-up">
+            DigiCare is proud to be the award-winning whitelabel realtionship
+            service trusted by brands, from FMCGs to automotive industry, to
+            elevate their online customer experience.
+            <br />
+            <br />
+            With more than 5 years of experience, our team of agents trained
+            to provide exceptional social customer care. No matter the size of
+            your challenge, we have you completely covered!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid background" id="How">
+    <!-- Mode mobile -->
+    <div class="row title-mobile d-xs-block d-sm-none d-md-none d-lg-none d-xl-none" data-aos="fade-right"
+      data-aos-delay="300">
+      <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+        <img src="./assets/img/Title Banner mobile.png" alt="title" /><br />
+        <a href="#Contact" class="button" role="button" aria-pressed="true">Let us help &#62;</a>
+      </div>
     </div>
 
-    <!-- Carousel -->
-    <div id="Achievement">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <h1 class="Our-Achievement text-center">
-          Our <span>Achievement</span>
-        </h1>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <picture>
-              <source
-                media="(max-width: 398px)"
-                srcset="./assets/img/caroseltransfaranmobile.png"
-              />
-              <img
-                class="d-block w-100"
-                src="./assets/img/caroseltransfaran.png"
-                alt="First slide"
-              />
-            </picture>
-          </div>
-          <div class="carousel-item">
-            <picture>
-              <source
-                media="(max-width: 398px)"
-                srcset="./assets/img/caroseltransfaranmobile.png"
-              />
-              <img
-                class="d-block w-100"
-                src="./assets/img/caroseltransfaran.png"
-                alt="Seconed slide"
-              />
-            </picture>
-          </div>
-          <div class="carousel-item">
-            <picture>
-              <source
-                media="(max-width: 398px)"
-                srcset="./assets/img/caroseltransfaranmobile.png"
-              />
-              <img
-                class="d-block w-100"
-                src="./assets/img/caroseltransfaran.png"
-                alt="Third slide"
-              />
-            </picture>
+    <!-- Container How we Work -->
+
+    <div class="container service" id="Flow">
+      <div class="row pb-md-5">
+        <div class="col-md-3 col-lg-3 col-xl-3 whatWeDo-img1">
+          <img data-aos="fade-up" src="./assets/img/What We Do@2x.png" alt="What-we-do-logo" width="200px"
+            height="auto" />
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xl-3 pt-lg-2 pr-lg-5 whatWeDo-img2">
+          <img data-aos="fade-up" src="./assets/img/Line 2.png" alt="line-logo" width="150px" height="auto" />
+        </div>
+
+        <div
+          class="col-12 col-md-6 col-lg-6 col-xl-6 d-xl-block d-lg-block d-md-block d-sm-none d-xs-none pt-5 elevate">
+          <img src="./assets/img/Group 60s.png" alt="elevate-logo" width="110px" height="100px" data-aos="fade-up"
+            data-aos-delay="100" />
+          <h1 data-aos="fade-up" data-aos-delay="200">
+            ELEVATE YOUR <br />
+            COSTUMER EXPERIENCE
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="300">
+            Save your time to respond to all your customer's inquiris online.
+            Our dedicated agents will work round the clock to provide
+            responsive social customer care with efficienct and speed.
+          </p>
+        </div>
+        <div class="triangelLeft">
+          <img class="img-fluid" src="./assets/img/triangle small blue bottom@2x.png" alt="triangelLeft" />
+        </div>
+      </div>
+
+      <div class="row row-box1">
+        <div class="col-lg-1"></div>
+        <!-- mode mobile -->
+        <div
+          class="col-12 col-md-6 col-lg-6 col-xl-6 d-xs-block d-sm-block d-md-none d-lg-none d-xl-none elevate-mobile">
+          <img src="./assets/img/Group 60s.png" alt="elevate-logo" data-aos="fade-up" data-aos-delay="100" />
+          <h1 data-aos="fade-up" data-aos-delay="200" width="200px">
+            ELEVATE YOUR COSTUMER EXPERIENCE
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="300">
+            Save your time to respond to all your customer's inquiris online.
+            Our dedicated agents will work round the clock to provide
+            responsive social customer care with efficienct and speed.
+          </p>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-5 reply">
+          <img src="./assets/img/Group 58s.png" alt="reply-logo" width="100px" height="100px" data-aos="fade-up" />
+          <h1 data-aos="fade-up" data-aos-delay="300">REPLY INQUIRIES</h1>
+          <p data-aos="fade-up" data-aos-delay="400">
+            There's no holiday for us to turn every negative complaint into a
+            positive compliment. Our dedicated agents will be working 12 hours
+            a day to resolve all the inquiries quickly and also ensure any
+            complaint is seamlessly handed to your representative before the
+            story gets ahead you.
+          </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-5 reply">
+          <img src="./assets/img/Group 59s.png" alt="address-logo" width="100px" height="100px" data-aos="fade-up" />
+          <h1 data-aos="fade-up" data-aos-delay="500">
+            ADDRESS COMPLAINTS
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="600">
+            Speed up all your social customer care operations with our
+            dedicates agents working thoroughly to respond to all the
+            inquiries across all channels, Our agents will be working in a
+            shift to carefully resolve every customer inquiries in less than
+            30 minutes.
+          </p>
+        </div>
+        <div class="col-lg-1">
+          <div class="triangelRight">
+            <img class="img-fluid" src="./assets/img/triangle blue bottom@2x.png" alt="triangelBlue" width="200px"
+              height="150px" />
           </div>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+      </div>
+
+      <div class="row pt-lg-5 pt-xl-5 pt-md-5 row-box">
+        <div class="col-lg-1"></div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-5 reply">
+          <img src="./assets/img/Group 57s.png" alt="gain-logo" width="100px" height="100px" data-aos="fade-up" />
+          <h1 data-aos="fade-up" data-aos-delay="700">GAIN INSIGHTS</h1>
+          <p data-aos="fade-up" data-aos-delay="800">
+            Need to drive brand loyalty and build consumer advocacy in sosial
+            media? You can get the best of both worlds with us by letting our
+            agents nurturing a meaningful relationship with your customers
+            across all channels.
+          </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-5 reply">
+          <img src="./assets/img/Group 56s.png" alt="increase-logo" width="100px" height="100px" data-aos="fade-up" />
+          <h1 data-aos="fade-up" data-aos-delay="900">
+            INCREASE BRAND LOVE
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="1000">
+            Need a life-saver to understand what your customer wants? Our team
+            of agents will help you connect with your customer on a deeper
+            level by excerpting meaningful interactions into actionable in
+          </p>
+        </div>
+        <div class="col-lg-1">
+          <div class="triangelRightBlueOutline">
+            <img src="./assets/img/triangle blue bottom@2x.png" alt="triangelBlue" width="100px" height="120px" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- We support -->
+  <div class="container weSupport text-center">
+    <h1>Consumer Channels We <span>Support</span></h1>
+    <div class="container sosialMedia">
+      <ul>
+        <li>
+          <a href="http://" target="_blank" rel="noopener">
+            <img data-aos="flip-right" data-aos-delay="100" src="./assets/img/Group 6.png" alt="Instagram-logo" />
+          </a>
+        </li>
+        <li>
+          <a href="http://" target="_blank" rel="noopener">
+            <img data-aos="flip-right" data-aos-delay="200" src="./assets/img/Group 5.png" alt="facebook-logo" />
+          </a>
+        </li>
+        <li>
+          <a href="http://" target="_blank" rel="noopener">
+            <img data-aos="flip-right" data-aos-delay="300" src="./assets/img/Group 4.png" alt="youtube-logo" />
+          </a>
+        </li>
+        <li>
+          <a href="http://" target="_blank" rel="noopener">
+            <img data-aos="flip-right" data-aos-delay="400" src="./assets/img/Group 3.png" alt="twitter-logo" />
+          </a>
+        </li>
+        <li>
+          <a href="http://" target="_blank" rel="noopener">
+            <img data-aos="flip-right" data-aos-delay="500" src="./assets/img/Group 2.png" alt="linkedin-logo" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="triangelLeftBottomSmall">
+    <img src="./assets/img/triangle small blue bottom@2x.png" alt="triangelBlue" width="30px" height="40px" />
+  </div>
+
+  <!-- Carousel -->
+  <div id="Achievement">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <h1 class="Our-Achievement text-center">
+        Our <span>Achievement</span>
+      </h1>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <picture>
+            <source media="(max-width: 398px)" srcset="./assets/img/caroseltransfaranmobile.png" />
+            <img class="d-block w-100" src="./assets/img/caroseltransfaran.png" alt="First slide" />
+          </picture>
+        </div>
+        <div class="carousel-item">
+          <picture>
+            <source media="(max-width: 398px)" srcset="./assets/img/caroseltransfaranmobile.png" />
+            <img class="d-block w-100" src="./assets/img/caroseltransfaran.png" alt="Seconde slide" />
+          </picture>
+        </div>
+        <div class="carousel-item">
+          <picture>
+            <source media="(max-width: 398px)" srcset="./assets/img/caroseltransfaranmobile.png" />
+            <img class="d-block w-100" src="./assets/img/caroseltransfaran.png" alt="Third slide" />
+          </picture>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Clients -->
+  <div class="container clients text-center" id="Client">
+    <h1>Our <span>Clients</span></h1>
+    <div class="row">
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <a href="https://wuling.id/en/" target="_blank" rel="noopener noreferrer">
+          <img class="clients-img" data-aos="zoom-in" data-aos-delay="100" src="./assets/img/client logo/wuling.png"
+            width="150px" height="100px" alt="wuling-logo" />
         </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <a href="https://www.instagram.com/julies.ind/?hl=en" target="_blank" rel="noopener noreferrer">
+          <img class="clients-img1" data-aos="zoom-in" data-aos-delay="200" src="./assets/img/client logo/julies.png"
+            width="150px" height="100px" alt="julies-logo" />
+        </a>
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <a href="https://www.instagram.com/sogoodid/" target="_blank" rel="noopener noreferrer">
+          <img class="clients-img2" data-aos="zoom-in" data-aos-delay="300" src="./assets/img/client logo/sogoood.png"
+            width="100px" height="95px" alt="sogood-logo" />
+        </a>
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <a href="https://www.instagram.com/darlie.id/?hl=en" target="_blank" rel="noopener noreferrer">
+          <img class="clients-img3" data-aos="zoom-in" data-aos-delay="400" src="./assets/img/client logo/DARLIE.png"
+            width="170px" height="95px" alt="DARLIE-logo" />
+        </a>
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <img class="clients-img4" data-aos="zoom-in" data-aos-delay="500" src="./assets/img/client logo/kotex.png"
+          width="150px" height="90px" alt="kotex-logo" />
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <a href="https://www.instagram.com/imboostid/" target="_blank" rel="noopener noreferrer">
+          <img class="clients-img5" data-aos="zoom-in" data-aos-delay="600" src="./assets/img/client logo/imboost.png"
+            width="150px" height="90px" alt="imboost-logo" />
         </a>
       </div>
     </div>
 
-    <!-- Clients -->
-    <div class="container clients text-center" id="Client">
-      <h1>Our <span>Clients</span></h1>
-      <div class="row">
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <a
-            href="https://wuling.id/en/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              class="clients-img"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-              src="./assets/img/client logo/wuling.png"
-              width="150px"
-              height="100px"
-              alt="wuling-logo"
-            />
-          </a>
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <a
-            href="https://www.instagram.com/julies.ind/?hl=en"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              class="clients-img1"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              src="./assets/img/client logo/julies.png"
-              width="150px"
-              height="100px"
-              alt="julies-logo"
-            />
-          </a>
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <a
-            href="https://www.instagram.com/sogoodid/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              class="clients-img2"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-              src="./assets/img/client logo/sogoood.png"
-              width="100px"
-              height="95px"
-              alt="sogood-logo"
-            />
-          </a>
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <a
-            href="https://www.instagram.com/darlie.id/?hl=en"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              class="clients-img3"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-              src="./assets/img/client logo/DARLIE.png"
-              width="170px"
-              height="95px"
-              alt="DARLIE-logo"
-            />
-          </a>
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <img
-            class="clients-img4"
-            data-aos="zoom-in"
-            data-aos-delay="500"
-            src="./assets/img/client logo/kotex.png"
-            width="150px"
-            height="90px"
-            alt="kotex-logo"
-          />
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <a
-            href="https://www.instagram.com/imboostid/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              class="clients-img5"
-              data-aos="zoom-in"
-              data-aos-delay="600"
-              src="./assets/img/client logo/imboost.png"
-              width="150px"
-              height="90px"
-              alt="imboost-logo"
-            />
-          </a>
-        </div>
+    <div class="row text-center">
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <img class="clients-img6" data-aos="zoom-in" data-aos-delay="700" data-aos="zoom-in"
+          src="./assets/img/client logo/Prenagen.png" width="150px" height="100px" alt="Prenagen-logo" />
       </div>
-
-      <div class="row text-center">
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <img
-            class="clients-img6"
-            data-aos="zoom-in"
-            data-aos-delay="700"
-            data-aos="zoom-in"
-            src="./assets/img/client logo/Prenagen.png"
-            width="150px"
-            height="100px"
-            alt="Prenagen-logo"
-          />
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <img
-            class="clients-img7"
-            data-aos="zoom-in"
-            data-aos-delay="800"
-            src="./assets/img/client logo/Capkakitiga.png"
-            width="150px"
-            height="110px"
-            alt="Capkakitiga-logo"
-          />
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <img
-            class="clients-img8"
-            data-aos="zoom-in"
-            data-aos-delay="900"
-            src="./assets/img/client logo/OJK.png"
-            width="150px"
-            height="100px"
-            alt="OJK-logo"
-          />
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <img
-            class="clients-img9"
-            data-aos="zoom-in"
-            data-aos-delay="1000"
-            src="./assets/img/client logo/bcalife.png"
-            width="170px"
-            height="100px"
-            alt="bcalife-logo"
-          />
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <a
-            href="http://telonlang.com "
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              class="clients-img10"
-              data-aos="zoom-in"
-              data-aos-delay="1100"
-              src="./assets/img/client logo/telonlang.png"
-              width="150px"
-              height="100px"
-              alt="telonlang-logo"
-            />
-          </a>
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <a
-            href="https://www.instagram.com/fresnnatural_id/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              class="clients-img11"
-              data-aos="zoom-in"
-              data-aos-delay="1200"
-              src="./assets/img/client logo/Natural.png"
-              width="150px"
-              height="100px"
-              alt="fres&natura-logo"
-            />
-          </a>
-        </div>
-        <div class="col-6 col-lg-2 col-md-2 col-sm-4">
-          <a
-            href="https://www.lpdp.kemenkeu.go.id/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              class="clients-img12"
-              data-aos="zoom-in"
-              data-aos-delay="1300"
-              src="./assets/img/client logo/LPDP2.png"
-              alt="LPDP-logo"
-            />
-          </a>
-        </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <img class="clients-img7" data-aos="zoom-in" data-aos-delay="800" src="./assets/img/client logo/Capkakitiga.png"
+          width="150px" height="110px" alt="Capkakitiga-logo" />
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <img class="clients-img8" data-aos="zoom-in" data-aos-delay="900" src="./assets/img/client logo/OJK.png"
+          width="150px" height="100px" alt="OJK-logo" />
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <img class="clients-img9" data-aos="zoom-in" data-aos-delay="1000" src="./assets/img/client logo/bcalife.png"
+          width="170px" height="100px" alt="bcalife-logo" />
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <a href="http://telonlang.com " target="_blank" rel="noopener noreferrer">
+          <img class="clients-img10" data-aos="zoom-in" data-aos-delay="1100"
+            src="./assets/img/client logo/telonlang.png" width="150px" height="100px" alt="telonlang-logo" />
+        </a>
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <a href="https://www.instagram.com/fresnnatural_id/" target="_blank" rel="noopener noreferrer">
+          <img class="clients-img11" data-aos="zoom-in" data-aos-delay="1200" src="./assets/img/client logo/Natural.png"
+            width="150px" height="100px" alt="fres&natura-logo" />
+        </a>
+      </div>
+      <div class="col-6 col-lg-2 col-md-2 col-sm-4">
+        <a href="https://www.lpdp.kemenkeu.go.id/" target="_blank" rel="noopener noreferrer">
+          <img class="clients-img12" data-aos="zoom-in" data-aos-delay="1300" src="./assets/img/client logo/LPDP2.png"
+            alt="LPDP-logo" />
+        </a>
       </div>
     </div>
+  </div>
 
-    <div class="triangelRightBottomBlueOutline">
-      <img
-        src="./assets/img/triangle blue bottom@2x.png"
-        alt="triangel-right-blue"
-        width="100px"
-        height="100px"
-      />
-    </div>
-    <!-- Form -->
-    <div class="container-fluid form text-center" id="Contact">
-      <form method="POST" action="" enctype="multipart/form-data" class="form">
-        <div class="container">
-          <h1>Let us <span>Help</span></h1>
-          <div class="form-row">
-            <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Name"
-                name="name"
-                required
-              />
-            </div>
-            <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Phone"
-                name="phone"
-                pattern="[0-9]+"
-                title="Only number to allowed"
-                required
-              />
-            </div>
+  <div class="triangelRightBottomBlueOutline">
+    <img src="./assets/img/triangle blue bottom@2x.png" alt="triangel-right-blue" width="100px" height="100px" />
+  </div>
+  <!-- Form -->
+  <div class="container-fluid form text-center" id="Contact">
+    <form method="POST" action="" enctype="multipart/form-data" class="form">
+      <div class="container">
+        <h1>Let us <span>Help</span></h1>
+        <div class="form-row">
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
+            <input type="text" class="form-control" placeholder="Name" name="name" required />
           </div>
-
-          <div class="form-row">
-            <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="E-mail"
-                name="email"
-                pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
-                title="Invalid email address"
-                required
-              />
-            </div>
-            <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Company"
-                name="company"
-                required
-              />
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Industry"
-                name="industry"
-                required
-              />
-            </div>
-            <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Number of Employees"
-                name="employed"
-                required
-              />
-            </div>
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
+            <input type="text" class="form-control" placeholder="Phone" name="phone" pattern="[0-9]+"
+              title="Only number to allowed" required />
           </div>
         </div>
-            <div class="container p-5">
-              <div class="loading"></div>
-              <button type="submit" class="btn-read">Send</button>
-            </div>
+
+        <div class="form-row">
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
+            <input type="text" class="form-control" placeholder="E-mail" name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+              title="Invalid email address" required />
+          </div>
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
+            <input type="text" class="form-control" placeholder="Company" name="company" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
+            <input type="text" class="form-control" placeholder="Industry" name="industry" required />
+          </div>
+          <div class="col col-sm-6 col-md-6 col-lg-6 p-3">
+            <input type="text" class="form-control" placeholder="Number of Employees" name="employed" required />
+          </div>
+        </div>
       </div>
-      </form>
-      <div class="triangelLeftBottom">
-        <img
-          src="./assets/img/triangle small blue bottom@2x.png"
-          alt="triangelBlue"
-          width="80px"
-          height="100px"
-        />
+      <div class="container p-5">
+        <div class="loading"></div>
+        <button type="submit" class="btn-read">Send</button>
       </div>
-    </div>
+  </div>
+  </form>
+  <div class="triangelLeftBottom">
+    <img src="./assets/img/triangle small blue bottom@2x.png" alt="triangelBlue" width="80px" height="100px" />
+  </div>
+  </div>
+  <div class="sweet"></div>
+  <!-- footer -->
+  <div class="container-fluid footer text-center">
+    <h1>Copyrights DigiCare | All Rights Reserved</h1>
+  </div>
 
-    <!-- footer -->
-    <div class="container-fluid footer text-center">
-      <h1>Copyrights DigiCare | All Rights Reserved</h1>
-    </div>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 1000
-      });
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000
+    });
 
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function() {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = "https://embed.tawk.to/5e425b30298c395d1ce7494f/default";
-        s1.charset = "UTF-8";
-        s1.setAttribute("crossorigin", "*");
-        s0.parentNode.insertBefore(s1, s0);
-      })();
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/5e425b30298c395d1ce7494f/default";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
 
-      $(function() {
-        $(".form").submit(function() {
-          $(".loading").html("<img src='assets/img/loading.gif' width='45'>");
-          $.ajax({
-            url: "email.php",
-            type: "POST",
-            data: $(".form").serialize(),
-            success: function(data) {
-              $(".loading").hide();
-              $("form")[0].reset();
-            }
-          });
-          return false;
+    $(function () {
+      $(".form").submit(function () {
+        $(".loading").html("<img src='assets/img/loading.gif' width='45'>");
+        $.ajax({
+          url: "email.php",
+          type: "POST",
+          data: $(".form").serialize(),
+          success: function (data) {
+            $('.sweet').html(data);
+            $(".loading").hide();
+            $("form")[0].reset();
+          }
         });
+        return false;
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>

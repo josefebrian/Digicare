@@ -4,7 +4,7 @@ if($_POST){
     if(empty($_POST['name']) || empty($_POST['phone']) || empty($_POST['email']) || empty($_POST['company']) || empty($_POST['industry']) || empty($_POST['employed'])){
 		echo '<script>
 			$(document).ready(function(){
-				swal("Ops...","harpa diisi ya","warning");
+				swal("Ops...","Fill in all required fields!","warning");
 			});
 			</script>';
 	}else{
@@ -40,7 +40,7 @@ if($_POST){
 			 echo'
 			<script>
 				$(document).ready(function(){
-					swal("Ops..!! '.utf8_encode($name).'...","An error occurred while sending the message, please try again!", "error");
+					swal("Ops..!! '.utf8_encode($name).'","An error occurred while sending the message, please try again!", "error");
 				});
 			</script>';
 
@@ -48,7 +48,7 @@ if($_POST){
 			 echo'
 		<script>
 			$(document).ready(function(){
-				swal("Success '.utf8_encode($name).'...", "Your message has been sent. Thank you for contacting us!", "success")
+				swal("Success '.utf8_encode($name).'", "Your message has been sent. Thank you for contacting us!", "success")
 			});
 		</script>';
 
