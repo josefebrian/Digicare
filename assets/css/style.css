@@ -1901,9 +1901,16 @@ input[type="text"] {
   input[type="text"] {
     width: 297px;
   }
+
+  .carousel-inner {
+    height: 25vh;
+  }
 }
 
 @media (max-width: 320px) {
+  .carousel-inner {
+    height: 23vh;
+  }
 
   nav.navbar.navbar-expand-md.navbar-dark.fixed-top {
     padding-right: 0;
