@@ -455,6 +455,7 @@ q::after {
   font-family: GothamLight;
 }
 
+
 /* triangelBlue */
 .triangelRight {
   position: relative;
@@ -556,6 +557,23 @@ q::after {
 .carousel-inner {
   background: rgb(53, 103, 204);
   background: linear-gradient(123deg, rgba(53, 103, 204, 1) 0%, rgba(57, 175, 219, 1) 100%);
+}
+
+.carousel-inner h1 {
+  text-align: center;
+}
+
+.Our-Achievement {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  font-family: Gotham-Bold;
+}
+
+
+.Our-Achievement span {
+  color: #3ce6e6;
 }
 
 .container .sosialMedia {
@@ -1599,6 +1617,7 @@ input[type="text"] {
 }
 
 @media (max-width: 398px) {
+
   nav.navbar.navbar-expand-md.navbar-dark.fixed-top {
     padding-right: 0;
     padding-left: 0;
