@@ -1194,7 +1194,7 @@ input[type="text"] {
     right: -190px;
     top: -680px;
     z-index: 5;
-    height: 150px;
+    githeight: 150px;
   }
 
   .triangelRightBottomBlueOutline {
@@ -1983,7 +1983,7 @@ input[type="text"] {
   }
 
   .elevate-mobile {
-    margin-top: -200px;
+    margin-top: -170px;
   }
 
   .elevate-mobile img {
