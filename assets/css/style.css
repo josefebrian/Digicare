@@ -1533,7 +1533,7 @@ input[type="text"] {
   }
 
   .container .sosialMedia {
-    width: 90%;
+    width: 100%;
   }
 
   .sosialMedia ul li {
@@ -1889,7 +1889,7 @@ input[type="text"] {
   }
 
   img.d-block.w-100 {
-    height: 70vh;
+    height: 50vh;
   }
 
   input[type="text"] {
