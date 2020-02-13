@@ -554,9 +554,11 @@ q::after {
 
 #carouselExampleControls {
   background: rgb(53, 103, 204);
-  background: linear-gradient(123deg,
-      rgba(53, 103, 204, 1) 0%,
-      rgba(57, 175, 219, 1) 100%);
+  background: linear-gradient(
+    123deg,
+    rgba(53, 103, 204, 1) 0%,
+    rgba(57, 175, 219, 1) 100%
+  );
 }
 
 .Our-Achievement {
@@ -1547,7 +1549,7 @@ input[type="text"] {
   }
 
   .sosialMedia ul li {
-    padding: 10px 10px;
+    padding: 10px 2px;
   }
 
   .sosialMedia ul li a img {
@@ -1795,7 +1797,7 @@ input[type="text"] {
   }
 
   .sosialMedia ul li {
-    padding: 10px 4px;
+    padding: 10px 0px;
   }
 
   .sosialMedia ul li a img {
@@ -2121,20 +2123,17 @@ input[type="text"] {
 @media only screen and (min-width: 400px) and (max-width: 450px) {
   input[type="text"] {
     width: 330px;
-    ;
   }
 }
 
 @media only screen and (min-width: 450px) and (max-width: 499px) {
   input[type="text"] {
     width: 390px;
-    ;
   }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 380px) {
   input[type="text"] {
     width: 265px;
-    ;
   }
 }
