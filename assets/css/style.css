@@ -522,7 +522,7 @@ q::after {
   position: relative;
   float: left;
   left: 20px;
-  top: -10px;
+  top: -100px;
   transform: rotate(125deg);
   -ms-transform: rotate(125deg);
   -webkit-transform: rotate(125deg);
@@ -689,13 +689,14 @@ q::after {
 .form {
   color: #5a5a5a;
   background-color: #ecf6ff;
-  padding: 150px;
+  padding: 50px 0px;
   font-family: Gotham-Bold;
 }
 
 .form h1 {
   font-size: 21px;
   padding-bottom: 20px;
+  s
 }
 
 .form span {
@@ -814,7 +815,7 @@ input[type="text"] {
   }
 
   input[type="text"] {
-    width: 450px;
+    width: 400px;
   }
 }
 
@@ -931,7 +932,7 @@ input[type="text"] {
   }
 
   input[type="text"] {
-    width: 330px;
+    width: 320px;
   }
 }
 
@@ -1207,7 +1208,7 @@ input[type="text"] {
     width: 10px;
     position: relative;
     float: left;
-    left: 35px;
+    left: 80px;
     top: -130px;
   }
 
@@ -1593,8 +1594,8 @@ input[type="text"] {
     width: 10px;
     position: relative;
     float: left;
-    left: 10px;
-    top: 10px;
+    left: 90px;
+    top: -130px;
   }
 
   .triangelLeftBottomSmall {
@@ -1603,7 +1604,7 @@ input[type="text"] {
   }
 
   input[type="text"] {
-    width: 170px;
+    width: 185px;
   }
 }
 
@@ -1904,9 +1905,6 @@ input[type="text"] {
 }
 
 @media (max-width: 320px) {
-  img.d-block.w-100 {
-    height: 35vh;
-  }
 
   nav.navbar.navbar-expand-md.navbar-dark.fixed-top {
     padding-right: 0;
