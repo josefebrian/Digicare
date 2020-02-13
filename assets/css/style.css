@@ -2117,3 +2117,24 @@ input[type="text"] {
     width: 240px;
   }
 }
+
+@media only screen and (min-width: 400px) and (max-width: 450px) {
+  input[type="text"] {
+    width: 330px;
+    ;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 499px) {
+  input[type="text"] {
+    width: 390px;
+    ;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 380px) {
+  input[type="text"] {
+    width: 265px;
+    ;
+  }
+}
