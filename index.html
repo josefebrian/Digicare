@@ -424,7 +424,7 @@
     <img src="./assets/img/triangle small blue bottom@2x.png" alt="triangelBlue" width="80px" height="100px" />
   </div>
   </div>
-  <div class="sweet"></div>
+  <div class="mailer_error d-none"></div>
   <!-- footer -->
   <div class="container-fluid footer text-center">
     <h1>Copyrights DigiCare | All Rights Reserved</h1>
@@ -459,7 +459,7 @@
           type: "POST",
           data: $(".form").serialize(),
           success: function (data) {
-            $('.sweet').html(data);
+            $('.mailer_error').html(data);
             $(".loading").hide();
             $("form")[0].reset();
           }
