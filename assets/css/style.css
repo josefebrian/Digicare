@@ -473,8 +473,8 @@ q::after {
 .triangelRightBlueOutline {
   position: relative;
   float: right;
-  right: -70px;
-  top: 65px;
+  right: -165px;
+  top: 265px;
   z-index: 7;
   width: 100px;
   transform: rotate(200deg);
@@ -554,11 +554,9 @@ q::after {
 
 #carouselExampleControls {
   background: rgb(53, 103, 204);
-  background: linear-gradient(
-    123deg,
-    rgba(53, 103, 204, 1) 0%,
-    rgba(57, 175, 219, 1) 100%
-  );
+  background: linear-gradient(123deg,
+      rgba(53, 103, 204, 1) 0%,
+      rgba(57, 175, 219, 1) 100%);
 }
 
 .Our-Achievement {
@@ -739,8 +737,16 @@ input[type="text"] {
   font-family: GothamLight;
 }
 
+.row-box {
+  padding-bottom: 150px;
+}
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
+  .row-box {
+    padding-bottom: 150px;
+  }
+
   .navbar-dark .navbar-nav ul li {
     padding-left: 9px;
   }
@@ -822,6 +828,10 @@ input[type="text"] {
 
 /* Medium devices (tablets, 968px and up) */
 @media (max-width: 998px) {
+  .row-box {
+    padding-bottom: 0;
+  }
+
   .header-inner {
     clip-path: ellipse(75% 52% at 51% 46%);
   }
@@ -920,6 +930,11 @@ input[type="text"] {
   .sosialMedia ul li a img {
     width: 60px;
     height: 55px;
+  }
+
+  .triangelRightBlueOutline {
+    top: 65px;
+    right: -185px;
   }
 
   .triangelRight {
@@ -1202,7 +1217,7 @@ input[type="text"] {
   }
 
   .triangelRightBlueOutline {
-    left: 10px;
+    right: -160px;
   }
 
   .triangelLeftBottom {
@@ -1585,7 +1600,7 @@ input[type="text"] {
   .triangelRightBlueOutline {
     position: relative;
     float: right;
-    right: -10px;
+    right: -75px;
     top: 70px;
     z-index: 1;
     width: 100px;
